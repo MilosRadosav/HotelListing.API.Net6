@@ -1,0 +1,88 @@
+2022-06-21 12:20:12.025 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-21 12:20:12.045 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - -
+2022-06-21 12:20:12.078 +02:00 [INF] Hosting environment: Development
+2022-06-21 12:20:12.078 +02:00 [INF] Content root path: C:\Users\Milos\source\repos\HotelListing\HotelListing.API\
+2022-06-21 12:20:12.354 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - -
+2022-06-21 12:20:12.355 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - - - 200 - text/html;charset=utf-8 309.7918ms
+2022-06-21 12:20:12.369 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 12.2029ms
+2022-06-21 12:20:12.479 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - -
+2022-06-21 12:20:12.527 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 48.4011ms
+2022-06-21 12:20:12.775 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - -
+2022-06-21 12:20:12.900 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 124.3433ms
+2022-06-21 12:21:23.175 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/WeatherForecast - -
+2022-06-21 12:21:23.188 +02:00 [INF] Executing endpoint 'HotelListing.API.Controllers.WeatherForecastController.Get (HotelListing.API)'
+2022-06-21 12:21:23.198 +02:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[HotelListing.API.WeatherForecast] Get() on controller HotelListing.API.Controllers.WeatherForecastController (HotelListing.API).
+2022-06-21 12:21:23.207 +02:00 [INF] Executing ObjectResult, writing value of type 'HotelListing.API.WeatherForecast[]'.
+2022-06-21 12:21:23.217 +02:00 [INF] Executed action HotelListing.API.Controllers.WeatherForecastController.Get (HotelListing.API) in 13.8435ms
+2022-06-21 12:21:23.218 +02:00 [INF] Executed endpoint 'HotelListing.API.Controllers.WeatherForecastController.Get (HotelListing.API)'
+2022-06-21 12:21:23.218 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/WeatherForecast - - - 200 - application/json;+charset=utf-8 42.8096ms
+2022-06-21 12:22:29.840 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-21 12:22:29.858 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - -
+2022-06-21 12:22:29.879 +02:00 [INF] Hosting environment: Development
+2022-06-21 12:22:29.879 +02:00 [INF] Content root path: C:\Users\Milos\source\repos\HotelListing\HotelListing.API\
+2022-06-21 12:22:30.113 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - - - 200 - text/html;charset=utf-8 257.3561ms
+2022-06-21 12:22:30.118 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - -
+2022-06-21 12:22:30.122 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 3.8005ms
+2022-06-21 12:22:30.220 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - -
+2022-06-21 12:22:30.257 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 37.0168ms
+2022-06-21 12:22:30.395 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - -
+2022-06-21 12:22:30.519 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 123.6256ms
+2022-06-21 12:24:03.854 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - -
+2022-06-21 12:24:03.862 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - - - 200 - text/html;charset=utf-8 8.2086ms
+2022-06-21 12:24:03.882 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - -
+2022-06-21 12:24:03.882 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - -
+2022-06-21 12:24:03.884 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 1.2204ms
+2022-06-21 12:24:03.911 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 29.0005ms
+2022-06-21 12:24:04.257 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - -
+2022-06-21 12:24:04.259 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1.4791ms
+2022-06-21 12:24:12.580 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - -
+2022-06-21 12:24:12.587 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - - - 200 - text/html;charset=utf-8 7.1023ms
+2022-06-21 12:24:12.603 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - -
+2022-06-21 12:24:12.603 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - -
+2022-06-21 12:24:12.604 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 1.1217ms
+2022-06-21 12:24:12.631 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 28.2754ms
+2022-06-21 12:24:12.996 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - -
+2022-06-21 12:24:12.998 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1.8329ms
+2022-06-21 12:24:38.320 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-21 12:24:38.349 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - -
+2022-06-21 12:24:38.377 +02:00 [INF] Hosting environment: Development
+2022-06-21 12:24:38.377 +02:00 [INF] Content root path: C:\Users\Milos\source\repos\HotelListing\HotelListing.API\
+2022-06-21 12:24:38.676 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - - - 200 - text/html;charset=utf-8 327.0405ms
+2022-06-21 12:24:38.677 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - -
+2022-06-21 12:24:38.691 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 10.4843ms
+2022-06-21 12:24:38.779 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - -
+2022-06-21 12:24:38.824 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 44.6350ms
+2022-06-21 12:24:38.978 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - -
+2022-06-21 12:24:39.097 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 119.0844ms
+2022-06-21 12:24:45.789 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/WeatherForecast - -
+2022-06-21 12:24:45.800 +02:00 [INF] Executing endpoint 'HotelListing.API.Controllers.WeatherForecastController.Get (HotelListing.API)'
+2022-06-21 12:24:45.811 +02:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[HotelListing.API.WeatherForecast] Get() on controller HotelListing.API.Controllers.WeatherForecastController (HotelListing.API).
+2022-06-21 12:24:45.820 +02:00 [INF] Executing ObjectResult, writing value of type 'HotelListing.API.WeatherForecast[]'.
+2022-06-21 12:24:45.831 +02:00 [INF] Executed action HotelListing.API.Controllers.WeatherForecastController.Get (HotelListing.API) in 13.6328ms
+2022-06-21 12:24:45.832 +02:00 [INF] Executed endpoint 'HotelListing.API.Controllers.WeatherForecastController.Get (HotelListing.API)'
+2022-06-21 12:24:45.833 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/WeatherForecast - - - 200 - application/json;+charset=utf-8 43.4070ms
+2022-06-21 12:24:48.525 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/WeatherForecast - -
+2022-06-21 12:24:48.526 +02:00 [INF] Executing endpoint 'HotelListing.API.Controllers.WeatherForecastController.Get (HotelListing.API)'
+2022-06-21 12:24:48.526 +02:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[HotelListing.API.WeatherForecast] Get() on controller HotelListing.API.Controllers.WeatherForecastController (HotelListing.API).
+2022-06-21 12:24:48.527 +02:00 [INF] Executing ObjectResult, writing value of type 'HotelListing.API.WeatherForecast[]'.
+2022-06-21 12:24:48.528 +02:00 [INF] Executed action HotelListing.API.Controllers.WeatherForecastController.Get (HotelListing.API) in 1.6953ms
+2022-06-21 12:24:48.528 +02:00 [INF] Executed endpoint 'HotelListing.API.Controllers.WeatherForecastController.Get (HotelListing.API)'
+2022-06-21 12:24:48.529 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/WeatherForecast - - - 200 - application/json;+charset=utf-8 3.5605ms
+2022-06-21 12:25:09.704 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-21 12:25:09.724 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - -
+2022-06-21 12:25:09.748 +02:00 [INF] Hosting environment: Development
+2022-06-21 12:25:09.748 +02:00 [INF] Content root path: C:\Users\Milos\source\repos\HotelListing\HotelListing.API\
+2022-06-21 12:25:09.939 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - - - 200 - text/html;charset=utf-8 220.0089ms
+2022-06-21 12:25:09.942 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - -
+2022-06-21 12:25:09.948 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 5.8417ms
+2022-06-21 12:25:10.039 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - -
+2022-06-21 12:25:10.075 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 35.9043ms
+2022-06-21 12:25:10.204 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - -
+2022-06-21 12:25:10.302 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 98.5715ms
+2022-06-21 12:25:14.334 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/WeatherForecast - -
+2022-06-21 12:25:14.346 +02:00 [INF] Executing endpoint 'HotelListing.API.Controllers.WeatherForecastController.Get (HotelListing.API)'
+2022-06-21 12:25:14.357 +02:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[HotelListing.API.WeatherForecast] Get() on controller HotelListing.API.Controllers.WeatherForecastController (HotelListing.API).
+2022-06-21 12:25:14.367 +02:00 [INF] Executing ObjectResult, writing value of type 'HotelListing.API.WeatherForecast[]'.
+2022-06-21 12:25:14.379 +02:00 [INF] Executed action HotelListing.API.Controllers.WeatherForecastController.Get (HotelListing.API) in 15.4773ms
+2022-06-21 12:25:14.380 +02:00 [INF] Executed endpoint 'HotelListing.API.Controllers.WeatherForecastController.Get (HotelListing.API)'
+2022-06-21 12:25:14.380 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/WeatherForecast - - - 200 - application/json;+charset=utf-8 46.3067ms
