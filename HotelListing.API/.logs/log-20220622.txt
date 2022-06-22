@@ -1,0 +1,108 @@
+2022-06-22 17:08:12.180 +02:00 [INF] Entity Framework Core 6.0.6 initialized 'HotelListingDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.6' with options: None
+2022-06-22 17:11:38.076 +02:00 [INF] Entity Framework Core 6.0.6 initialized 'HotelListingDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.6' with options: None
+2022-06-22 17:11:38.838 +02:00 [INF] Executed DbCommand (184ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [HotelListApiDb];
+2022-06-22 17:11:38.928 +02:00 [INF] Executed DbCommand (87ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [HotelListApiDb] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2022-06-22 17:11:39.011 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-06-22 17:11:39.114 +02:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2022-06-22 17:11:39.116 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-06-22 17:11:39.134 +02:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-06-22 17:11:39.141 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2022-06-22 17:11:39.155 +02:00 [INF] Applying migration '20220622150812_InitialMigration'.
+2022-06-22 17:11:39.196 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Countries] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NULL,
+    [ShortName] nvarchar(max) NULL,
+    CONSTRAINT [PK_Countries] PRIMARY KEY ([Id])
+);
+2022-06-22 17:11:39.201 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Hotels] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NULL,
+    [Address] nvarchar(max) NULL,
+    [Rating] float NOT NULL,
+    [CountryId] int NOT NULL,
+    CONSTRAINT [PK_Hotels] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Hotels_Countries_CountryId] FOREIGN KEY ([CountryId]) REFERENCES [Countries] ([Id]) ON DELETE CASCADE
+);
+2022-06-22 17:11:39.205 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Hotels_CountryId] ON [Hotels] ([CountryId]);
+2022-06-22 17:11:39.209 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20220622150812_InitialMigration', N'6.0.6');
+2022-06-22 17:59:55.955 +02:00 [INF] Entity Framework Core 6.0.6 initialized 'HotelListingDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.6' with options: None
+2022-06-22 18:01:19.252 +02:00 [INF] Entity Framework Core 6.0.6 initialized 'HotelListingDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.6' with options: None
+2022-06-22 18:01:19.636 +02:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-06-22 18:01:19.661 +02:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-06-22 18:01:19.664 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-06-22 18:01:19.665 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-06-22 18:01:19.687 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2022-06-22 18:01:19.702 +02:00 [INF] Applying migration '20220622155956_SeededCountriesAndHotels'.
+2022-06-22 18:01:19.789 +02:00 [INF] Executed DbCommand (34ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Name', N'ShortName') AND [object_id] = OBJECT_ID(N'[Countries]'))
+    SET IDENTITY_INSERT [Countries] ON;
+INSERT INTO [Countries] ([Id], [Name], [ShortName])
+VALUES (1, N'Jamaica', N'JM');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Name', N'ShortName') AND [object_id] = OBJECT_ID(N'[Countries]'))
+    SET IDENTITY_INSERT [Countries] OFF;
+2022-06-22 18:01:19.797 +02:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Name', N'ShortName') AND [object_id] = OBJECT_ID(N'[Countries]'))
+    SET IDENTITY_INSERT [Countries] ON;
+INSERT INTO [Countries] ([Id], [Name], [ShortName])
+VALUES (2, N'Bahamas', N'BS');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Name', N'ShortName') AND [object_id] = OBJECT_ID(N'[Countries]'))
+    SET IDENTITY_INSERT [Countries] OFF;
+2022-06-22 18:01:19.806 +02:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Name', N'ShortName') AND [object_id] = OBJECT_ID(N'[Countries]'))
+    SET IDENTITY_INSERT [Countries] ON;
+INSERT INTO [Countries] ([Id], [Name], [ShortName])
+VALUES (3, N'Cayman Island', N'CI');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Name', N'ShortName') AND [object_id] = OBJECT_ID(N'[Countries]'))
+    SET IDENTITY_INSERT [Countries] OFF;
+2022-06-22 18:01:19.817 +02:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Address', N'CountryId', N'Name', N'Rating') AND [object_id] = OBJECT_ID(N'[Hotels]'))
+    SET IDENTITY_INSERT [Hotels] ON;
+INSERT INTO [Hotels] ([Id], [Address], [CountryId], [Name], [Rating])
+VALUES (1, N'Negril', 1, N'Sandals Resort and Spa', 4.2999999999999998E0);
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Address', N'CountryId', N'Name', N'Rating') AND [object_id] = OBJECT_ID(N'[Hotels]'))
+    SET IDENTITY_INSERT [Hotels] OFF;
+2022-06-22 18:01:19.824 +02:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Address', N'CountryId', N'Name', N'Rating') AND [object_id] = OBJECT_ID(N'[Hotels]'))
+    SET IDENTITY_INSERT [Hotels] ON;
+INSERT INTO [Hotels] ([Id], [Address], [CountryId], [Name], [Rating])
+VALUES (2, N'George Town', 3, N'Comfort Suites', 4.5E0);
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Address', N'CountryId', N'Name', N'Rating') AND [object_id] = OBJECT_ID(N'[Hotels]'))
+    SET IDENTITY_INSERT [Hotels] OFF;
+2022-06-22 18:01:19.835 +02:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Address', N'CountryId', N'Name', N'Rating') AND [object_id] = OBJECT_ID(N'[Hotels]'))
+    SET IDENTITY_INSERT [Hotels] ON;
+INSERT INTO [Hotels] ([Id], [Address], [CountryId], [Name], [Rating])
+VALUES (3, N'Nassua', 2, N'Nassua Hotel', 4.0E0);
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Address', N'CountryId', N'Name', N'Rating') AND [object_id] = OBJECT_ID(N'[Hotels]'))
+    SET IDENTITY_INSERT [Hotels] OFF;
+2022-06-22 18:01:19.836 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20220622155956_SeededCountriesAndHotels', N'6.0.6');
