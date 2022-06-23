@@ -1,0 +1,449 @@
+2022-06-23 09:38:33.598 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-23 09:38:33.628 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - -
+2022-06-23 09:38:33.660 +02:00 [INF] Hosting environment: Development
+2022-06-23 09:38:33.660 +02:00 [INF] Content root path: C:\Users\Milos\source\repos\HotelListing\HotelListing.API\
+2022-06-23 09:38:34.047 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - - - 200 - text/html;charset=utf-8 422.3301ms
+2022-06-23 09:38:34.153 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - -
+2022-06-23 09:38:34.163 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 5.9222ms
+2022-06-23 09:38:34.181 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - -
+2022-06-23 09:38:34.276 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 94.7738ms
+2022-06-23 09:38:34.394 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - -
+2022-06-23 09:38:34.545 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 150.2196ms
+2022-06-23 09:39:54.598 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44367/api/Countries application/json 43
+2022-06-23 09:39:54.605 +02:00 [INF] CORS policy execution successful.
+2022-06-23 09:39:54.615 +02:00 [INF] Executing endpoint 'HotelListing.API.Controllers.CountriesController.PostCountry (HotelListing.API)'
+2022-06-23 09:39:54.662 +02:00 [INF] Route matched with {action = "PostCountry", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[HotelListing.API.Data.Country]] PostCountry(HotelListing.API.DTO.Countries.CreateCountryDto) on controller HotelListing.API.Controllers.CountriesController (HotelListing.API).
+2022-06-23 09:39:55.711 +02:00 [INF] Entity Framework Core 6.0.6 initialized 'HotelListingDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.6' with options: None
+2022-06-23 09:39:56.630 +02:00 [INF] Executed DbCommand (49ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Countries] ([Name], [ShortName])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [Countries]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2022-06-23 09:39:56.713 +02:00 [INF] Executing CreatedAtActionResult, writing value of type 'HotelListing.API.Data.Country'.
+2022-06-23 09:39:56.749 +02:00 [INF] Executed action HotelListing.API.Controllers.CountriesController.PostCountry (HotelListing.API) in 2082.2974ms
+2022-06-23 09:39:56.750 +02:00 [INF] Executed endpoint 'HotelListing.API.Controllers.CountriesController.PostCountry (HotelListing.API)'
+2022-06-23 09:39:56.754 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44367/api/Countries application/json 43 - 201 - application/json;+charset=utf-8 2156.5771ms
+2022-06-23 10:41:29.789 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-23 10:41:29.812 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - -
+2022-06-23 10:41:29.842 +02:00 [INF] Hosting environment: Development
+2022-06-23 10:41:29.842 +02:00 [INF] Content root path: C:\Users\Milos\source\repos\HotelListing\HotelListing.API\
+2022-06-23 10:41:30.180 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - -
+2022-06-23 10:41:30.181 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - - - 200 - text/html;charset=utf-8 368.6345ms
+2022-06-23 10:41:30.195 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 9.9801ms
+2022-06-23 10:41:30.292 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - -
+2022-06-23 10:41:30.359 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 66.8894ms
+2022-06-23 10:41:30.500 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - -
+2022-06-23 10:41:30.667 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 167.3226ms
+2022-06-23 10:41:41.371 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44367/api/Countries/2 application/json 48
+2022-06-23 10:41:41.380 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2022-06-23 10:41:41.380 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2022-06-23 10:41:41.383 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44367/api/Countries/2 application/json 48 - 405 - - 11.5100ms
+2022-06-23 10:41:49.581 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44367/api/Countries/1 application/json 48
+2022-06-23 10:41:49.581 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2022-06-23 10:41:49.581 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2022-06-23 10:41:49.582 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44367/api/Countries/1 application/json 48 - 405 - - 1.2977ms
+2022-06-23 10:42:10.033 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44367/api/Countries application/json 47
+2022-06-23 10:42:10.040 +02:00 [INF] CORS policy execution successful.
+2022-06-23 10:42:10.040 +02:00 [INF] Executing endpoint 'HotelListing.API.Controllers.CountriesController.PostCountry (HotelListing.API)'
+2022-06-23 10:42:10.069 +02:00 [INF] Route matched with {action = "PostCountry", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[HotelListing.API.Data.Country]] PostCountry(HotelListing.API.DTO.Countries.CreateCountryDto) on controller HotelListing.API.Controllers.CountriesController (HotelListing.API).
+2022-06-23 10:42:11.205 +02:00 [INF] Entity Framework Core 6.0.6 initialized 'HotelListingDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.6' with options: None
+2022-06-23 10:42:11.971 +02:00 [INF] Executed DbCommand (46ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Countries] ([Name], [ShortName])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [Countries]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2022-06-23 10:42:12.044 +02:00 [INF] Executing CreatedAtActionResult, writing value of type 'HotelListing.API.Data.Country'.
+2022-06-23 10:42:12.073 +02:00 [INF] Executed action HotelListing.API.Controllers.CountriesController.PostCountry (HotelListing.API) in 1998.747ms
+2022-06-23 10:42:12.074 +02:00 [INF] Executed endpoint 'HotelListing.API.Controllers.CountriesController.PostCountry (HotelListing.API)'
+2022-06-23 10:42:12.080 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44367/api/Countries application/json 47 - 201 - application/json;+charset=utf-8 2046.7414ms
+2022-06-23 10:42:45.368 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-23 10:42:45.389 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - -
+2022-06-23 10:42:45.416 +02:00 [INF] Hosting environment: Development
+2022-06-23 10:42:45.417 +02:00 [INF] Content root path: C:\Users\Milos\source\repos\HotelListing\HotelListing.API\
+2022-06-23 10:42:45.695 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - - - 200 - text/html;charset=utf-8 310.5903ms
+2022-06-23 10:42:45.794 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - -
+2022-06-23 10:42:45.807 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 7.0986ms
+2022-06-23 10:42:45.834 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - -
+2022-06-23 10:42:45.916 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 52.1057ms
+2022-06-23 10:42:46.013 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - -
+2022-06-23 10:42:46.133 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 120.1294ms
+2022-06-23 10:42:56.554 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/Countries - -
+2022-06-23 10:42:56.570 +02:00 [INF] Executing endpoint 'HotelListing.API.Controllers.CountriesController.GetCountries (HotelListing.API)'
+2022-06-23 10:42:56.588 +02:00 [INF] Route matched with {action = "GetCountries", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[HotelListing.API.DTO.Countries.GetCountryDto]]] GetCountries() on controller HotelListing.API.Controllers.CountriesController (HotelListing.API).
+2022-06-23 10:43:05.234 +02:00 [INF] Entity Framework Core 6.0.6 initialized 'HotelListingDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.6' with options: None
+2022-06-23 10:43:06.001 +02:00 [INF] Executed DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name], [c].[ShortName]
+FROM [Countries] AS [c]
+2022-06-23 10:43:19.656 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[HotelListing.API.DTO.Countries.GetCountryDto, HotelListing.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-23 10:43:25.572 +02:00 [INF] Executed action HotelListing.API.Controllers.CountriesController.GetCountries (HotelListing.API) in 28978.8924ms
+2022-06-23 10:43:25.572 +02:00 [INF] Executed endpoint 'HotelListing.API.Controllers.CountriesController.GetCountries (HotelListing.API)'
+2022-06-23 10:43:25.581 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/Countries - - - 200 - application/json;+charset=utf-8 29026.9872ms
+2022-06-23 10:43:45.667 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/Countries/2 - -
+2022-06-23 10:43:45.667 +02:00 [INF] Executing endpoint 'HotelListing.API.Controllers.CountriesController.GetCountry (HotelListing.API)'
+2022-06-23 10:43:45.684 +02:00 [INF] Route matched with {action = "GetCountry", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[HotelListing.API.DTO.Countries.CountryDto]] GetCountry(Int32) on controller HotelListing.API.Controllers.CountriesController (HotelListing.API).
+2022-06-23 10:43:45.720 +02:00 [INF] Entity Framework Core 6.0.6 initialized 'HotelListingDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.6' with options: None
+2022-06-23 10:43:45.968 +02:00 [INF] Executed DbCommand (31ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Name], [t].[ShortName], [h].[Id], [h].[Address], [h].[CountryId], [h].[Name], [h].[Rating]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[Name], [c].[ShortName]
+    FROM [Countries] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [Hotels] AS [h] ON [t].[Id] = [h].[CountryId]
+ORDER BY [t].[Id]
+2022-06-23 10:43:45.999 +02:00 [INF] Executing OkObjectResult, writing value of type 'HotelListing.API.DTO.Countries.CountryDto'.
+2022-06-23 10:43:46.005 +02:00 [INF] Executed action HotelListing.API.Controllers.CountriesController.GetCountry (HotelListing.API) in 320.7808ms
+2022-06-23 10:43:46.005 +02:00 [INF] Executed endpoint 'HotelListing.API.Controllers.CountriesController.GetCountry (HotelListing.API)'
+2022-06-23 10:43:46.006 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/Countries/2 - - - 200 - application/json;+charset=utf-8 338.9784ms
+2022-06-23 12:12:34.445 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-23 12:12:34.469 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - -
+2022-06-23 12:12:34.496 +02:00 [INF] Hosting environment: Development
+2022-06-23 12:12:34.496 +02:00 [INF] Content root path: C:\Users\Milos\source\repos\HotelListing\HotelListing.API\
+2022-06-23 12:12:34.856 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - -
+2022-06-23 12:12:34.857 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - - - 200 - text/html;charset=utf-8 394.3362ms
+2022-06-23 12:12:34.870 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 11.4005ms
+2022-06-23 12:12:34.947 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - -
+2022-06-23 12:12:35.009 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 58.8815ms
+2022-06-23 12:12:35.154 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - -
+2022-06-23 12:12:35.305 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 151.8910ms
+2022-06-23 12:12:42.944 +02:00 [INF] Request starting HTTP/1.1 PUT https://localhost:44367/api/Countries/1 application/json 48
+2022-06-23 12:12:42.959 +02:00 [INF] Executing endpoint 'HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API)'
+2022-06-23 12:12:43.008 +02:00 [INF] Route matched with {action = "PutCountry", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutCountry(Int32, HotelListing.API.DTO.Countries.UpdateCountryDto) on controller HotelListing.API.Controllers.CountriesController (HotelListing.API).
+2022-06-23 12:12:43.345 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2022-06-23 12:12:43.352 +02:00 [INF] Executed action HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API) in 340.1397ms
+2022-06-23 12:12:43.353 +02:00 [INF] Executed endpoint 'HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API)'
+2022-06-23 12:12:43.355 +02:00 [INF] Request finished HTTP/1.1 PUT https://localhost:44367/api/Countries/1 application/json 48 - 400 - text/plain;+charset=utf-8 411.2956ms
+2022-06-23 12:13:04.328 +02:00 [INF] Request starting HTTP/1.1 PUT https://localhost:44367/api/Countries/1 application/json 61
+2022-06-23 12:13:04.328 +02:00 [INF] Executing endpoint 'HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API)'
+2022-06-23 12:13:04.329 +02:00 [INF] Route matched with {action = "PutCountry", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutCountry(Int32, HotelListing.API.DTO.Countries.UpdateCountryDto) on controller HotelListing.API.Controllers.CountriesController (HotelListing.API).
+2022-06-23 12:13:04.348 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2022-06-23 12:13:04.348 +02:00 [INF] Executed action HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API) in 19.7165ms
+2022-06-23 12:13:04.349 +02:00 [INF] Executed endpoint 'HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API)'
+2022-06-23 12:13:04.349 +02:00 [INF] Request finished HTTP/1.1 PUT https://localhost:44367/api/Countries/1 application/json 61 - 400 - text/plain;+charset=utf-8 20.9178ms
+2022-06-23 12:13:36.456 +02:00 [INF] Request starting HTTP/2 PUT https://localhost:44367/api/Countries/2 application/json 56
+2022-06-23 12:13:36.462 +02:00 [INF] CORS policy execution successful.
+2022-06-23 12:13:36.463 +02:00 [INF] Executing endpoint 'HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API)'
+2022-06-23 12:13:36.464 +02:00 [INF] Route matched with {action = "PutCountry", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutCountry(Int32, HotelListing.API.DTO.Countries.UpdateCountryDto) on controller HotelListing.API.Controllers.CountriesController (HotelListing.API).
+2022-06-23 12:13:36.468 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2022-06-23 12:13:36.470 +02:00 [INF] Executed action HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API) in 6.2761ms
+2022-06-23 12:13:36.470 +02:00 [INF] Executed endpoint 'HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API)'
+2022-06-23 12:13:36.470 +02:00 [INF] Request finished HTTP/2 PUT https://localhost:44367/api/Countries/2 application/json 56 - 400 - text/plain;+charset=utf-8 14.1560ms
+2022-06-23 12:14:43.300 +02:00 [INF] Request starting HTTP/1.1 PUT https://localhost:44367/api/Countries/2 application/json 60
+2022-06-23 12:14:43.300 +02:00 [INF] Executing endpoint 'HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API)'
+2022-06-23 12:14:43.300 +02:00 [INF] Route matched with {action = "PutCountry", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutCountry(Int32, HotelListing.API.DTO.Countries.UpdateCountryDto) on controller HotelListing.API.Controllers.CountriesController (HotelListing.API).
+2022-06-23 12:14:43.309 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2022-06-23 12:14:43.313 +02:00 [INF] Executed action HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API) in 12.7161ms
+2022-06-23 12:14:43.313 +02:00 [INF] Executed endpoint 'HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API)'
+2022-06-23 12:14:43.314 +02:00 [INF] Request finished HTTP/1.1 PUT https://localhost:44367/api/Countries/2 application/json 60 - 400 - application/problem+json;+charset=utf-8 13.8042ms
+2022-06-23 12:14:57.872 +02:00 [INF] Request starting HTTP/1.1 PUT https://localhost:44367/api/Countries/2 application/json 60
+2022-06-23 12:14:57.872 +02:00 [INF] Executing endpoint 'HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API)'
+2022-06-23 12:14:57.872 +02:00 [INF] Route matched with {action = "PutCountry", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutCountry(Int32, HotelListing.API.DTO.Countries.UpdateCountryDto) on controller HotelListing.API.Controllers.CountriesController (HotelListing.API).
+2022-06-23 12:14:58.711 +02:00 [INF] Entity Framework Core 6.0.6 initialized 'HotelListingDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.6' with options: None
+2022-06-23 12:14:59.531 +02:00 [INF] Executed DbCommand (51ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Name], [c].[ShortName]
+FROM [Countries] AS [c]
+WHERE [c].[Id] = @__p_0
+2022-06-23 12:14:59.720 +02:00 [INF] Executed action HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API) in 1847.5383ms
+2022-06-23 12:14:59.721 +02:00 [INF] Executed endpoint 'HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API)'
+2022-06-23 12:14:59.724 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+UpdateCountryDto -> Country
+HotelListing.API.DTO.Countries.UpdateCountryDto -> HotelListing.API.Data.Country
+   at lambda_method59(Closure , UpdateCountryDto , Country , ResolutionContext )
+   at HotelListing.API.Controllers.CountriesController.PutCountry(Int32 id, UpdateCountryDto updateCountryDto) in C:\Users\Milos\source\repos\HotelListing\HotelListing.API\Controllers\CountriesController.cs:line 70
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-06-23 12:14:59.768 +02:00 [INF] Request finished HTTP/1.1 PUT https://localhost:44367/api/Countries/2 application/json 60 - 500 - text/plain;+charset=utf-8 1896.3527ms
+2022-06-23 12:15:20.908 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-23 12:15:20.934 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - -
+2022-06-23 12:15:20.956 +02:00 [INF] Hosting environment: Development
+2022-06-23 12:15:20.956 +02:00 [INF] Content root path: C:\Users\Milos\source\repos\HotelListing\HotelListing.API\
+2022-06-23 12:15:21.246 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - - - 200 - text/html;charset=utf-8 315.3947ms
+2022-06-23 12:15:21.356 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - -
+2022-06-23 12:15:21.361 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 4.9330ms
+2022-06-23 12:15:21.387 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - -
+2022-06-23 12:15:21.435 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 48.7183ms
+2022-06-23 12:15:21.565 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - -
+2022-06-23 12:15:21.708 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 142.5461ms
+2022-06-23 12:15:32.504 +02:00 [INF] Request starting HTTP/1.1 PUT https://localhost:44367/api/Countries/2 application/json 60
+2022-06-23 12:15:32.515 +02:00 [INF] Executing endpoint 'HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API)'
+2022-06-23 12:15:32.549 +02:00 [INF] Route matched with {action = "PutCountry", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutCountry(Int32, HotelListing.API.DTO.Countries.UpdateCountryDto) on controller HotelListing.API.Controllers.CountriesController (HotelListing.API).
+2022-06-23 12:15:43.775 +02:00 [INF] Entity Framework Core 6.0.6 initialized 'HotelListingDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.6' with options: None
+2022-06-23 12:15:44.657 +02:00 [INF] Executed DbCommand (55ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Name], [c].[ShortName]
+FROM [Countries] AS [c]
+WHERE [c].[Id] = @__p_0
+2022-06-23 12:15:55.354 +02:00 [INF] Executed action HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API) in 22800.695ms
+2022-06-23 12:15:55.356 +02:00 [INF] Executed endpoint 'HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API)'
+2022-06-23 12:15:55.361 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+UpdateCountryDto -> Country
+HotelListing.API.DTO.Countries.UpdateCountryDto -> HotelListing.API.Data.Country
+   at lambda_method59(Closure , UpdateCountryDto , Country , ResolutionContext )
+   at HotelListing.API.Controllers.CountriesController.PutCountry(Int32 id, UpdateCountryDto updateCountryDto) in C:\Users\Milos\source\repos\HotelListing\HotelListing.API\Controllers\CountriesController.cs:line 70
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-06-23 12:15:55.383 +02:00 [INF] Request finished HTTP/1.1 PUT https://localhost:44367/api/Countries/2 application/json 60 - 500 - text/plain;+charset=utf-8 22878.8089ms
+2022-06-23 12:19:28.236 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-23 12:19:28.268 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - -
+2022-06-23 12:19:28.305 +02:00 [INF] Hosting environment: Development
+2022-06-23 12:19:28.306 +02:00 [INF] Content root path: C:\Users\Milos\source\repos\HotelListing\HotelListing.API\
+2022-06-23 12:19:28.632 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - -
+2022-06-23 12:19:28.632 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - - - 200 - text/html;charset=utf-8 371.9609ms
+2022-06-23 12:19:28.646 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 10.5718ms
+2022-06-23 12:19:28.737 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - -
+2022-06-23 12:19:28.782 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 45.4375ms
+2022-06-23 12:19:28.917 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - -
+2022-06-23 12:19:29.056 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 138.0890ms
+2022-06-23 12:19:43.137 +02:00 [INF] Request starting HTTP/1.1 PUT https://localhost:44367/api/Countries/2 application/json 60
+2022-06-23 12:19:43.156 +02:00 [INF] Executing endpoint 'HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API)'
+2022-06-23 12:19:43.192 +02:00 [INF] Route matched with {action = "PutCountry", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutCountry(Int32, HotelListing.API.DTO.Countries.UpdateCountryDto) on controller HotelListing.API.Controllers.CountriesController (HotelListing.API).
+2022-06-23 12:19:48.012 +02:00 [INF] Entity Framework Core 6.0.6 initialized 'HotelListingDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.6' with options: None
+2022-06-23 12:19:48.975 +02:00 [INF] Executed DbCommand (58ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Name], [c].[ShortName]
+FROM [Countries] AS [c]
+WHERE [c].[Id] = @__p_0
+2022-06-23 12:20:04.957 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2022-06-23 12:20:04.964 +02:00 [INF] Executed action HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API) in 21765.0743ms
+2022-06-23 12:20:04.966 +02:00 [INF] Executed endpoint 'HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API)'
+2022-06-23 12:20:04.972 +02:00 [INF] Request finished HTTP/1.1 PUT https://localhost:44367/api/Countries/2 application/json 60 - 204 - - 21835.3680ms
+2022-06-23 15:22:24.147 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-23 15:22:24.178 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - -
+2022-06-23 15:22:24.204 +02:00 [INF] Hosting environment: Development
+2022-06-23 15:22:24.204 +02:00 [INF] Content root path: C:\Users\Milos\source\repos\HotelListing\HotelListing.API\
+2022-06-23 15:22:24.524 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - -
+2022-06-23 15:22:24.525 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - - - 200 - text/html;charset=utf-8 350.2494ms
+2022-06-23 15:22:24.538 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 5.0607ms
+2022-06-23 15:22:24.617 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - -
+2022-06-23 15:22:24.678 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 60.5183ms
+2022-06-23 15:22:24.807 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - -
+2022-06-23 15:22:24.946 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 139.1533ms
+2022-06-23 15:22:30.248 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/Countries - -
+2022-06-23 15:22:30.259 +02:00 [INF] Executing endpoint 'HotelListing.API.Controllers.CountriesController.GetCountries (HotelListing.API)'
+2022-06-23 15:22:30.277 +02:00 [INF] Route matched with {action = "GetCountries", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[HotelListing.API.DTO.Countries.GetCountryDto]]] GetCountries() on controller HotelListing.API.Controllers.CountriesController (HotelListing.API).
+2022-06-23 15:22:34.575 +02:00 [INF] Entity Framework Core 6.0.6 initialized 'HotelListingDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.6' with options: None
+2022-06-23 15:22:35.300 +02:00 [INF] Executed DbCommand (31ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name], [c].[ShortName]
+FROM [Countries] AS [c]
+2022-06-23 15:22:35.399 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[HotelListing.API.DTO.Countries.GetCountryDto, HotelListing.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-23 15:22:35.410 +02:00 [INF] Executed action HotelListing.API.Controllers.CountriesController.GetCountries (HotelListing.API) in 5126.4933ms
+2022-06-23 15:22:35.411 +02:00 [INF] Executed endpoint 'HotelListing.API.Controllers.CountriesController.GetCountries (HotelListing.API)'
+2022-06-23 15:22:35.417 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/Countries - - - 200 - application/json;+charset=utf-8 5169.1136ms
+2022-06-23 15:23:11.031 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44367/api/Countries application/json 46
+2022-06-23 15:23:11.038 +02:00 [INF] CORS policy execution successful.
+2022-06-23 15:23:11.040 +02:00 [INF] Executing endpoint 'HotelListing.API.Controllers.CountriesController.PostCountry (HotelListing.API)'
+2022-06-23 15:23:11.053 +02:00 [INF] Route matched with {action = "PostCountry", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[HotelListing.API.Data.Country]] PostCountry(HotelListing.API.DTO.Countries.CreateCountryDto) on controller HotelListing.API.Controllers.CountriesController (HotelListing.API).
+2022-06-23 15:23:11.152 +02:00 [INF] Entity Framework Core 6.0.6 initialized 'HotelListingDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.6' with options: None
+2022-06-23 15:23:11.359 +02:00 [INF] Executed DbCommand (35ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Countries] ([Name], [ShortName])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [Countries]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2022-06-23 15:23:11.415 +02:00 [INF] Executing CreatedAtActionResult, writing value of type 'HotelListing.API.Data.Country'.
+2022-06-23 15:23:11.454 +02:00 [INF] Executed action HotelListing.API.Controllers.CountriesController.PostCountry (HotelListing.API) in 400.5436ms
+2022-06-23 15:23:11.454 +02:00 [INF] Executed endpoint 'HotelListing.API.Controllers.CountriesController.PostCountry (HotelListing.API)'
+2022-06-23 15:23:11.454 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44367/api/Countries application/json 46 - 201 - application/json;+charset=utf-8 422.8755ms
+2022-06-23 15:23:25.029 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/Countries/2 - -
+2022-06-23 15:23:25.030 +02:00 [INF] Executing endpoint 'HotelListing.API.Controllers.CountriesController.GetCountry (HotelListing.API)'
+2022-06-23 15:23:25.036 +02:00 [INF] Route matched with {action = "GetCountry", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[HotelListing.API.DTO.Countries.CountryDto]] GetCountry(Int32) on controller HotelListing.API.Controllers.CountriesController (HotelListing.API).
+2022-06-23 15:23:25.055 +02:00 [INF] Entity Framework Core 6.0.6 initialized 'HotelListingDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.6' with options: None
+2022-06-23 15:23:25.260 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Name], [t].[ShortName], [h].[Id], [h].[Address], [h].[CountryId], [h].[Name], [h].[Rating]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[Name], [c].[ShortName]
+    FROM [Countries] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [Hotels] AS [h] ON [t].[Id] = [h].[CountryId]
+ORDER BY [t].[Id]
+2022-06-23 15:23:25.292 +02:00 [INF] Executing OkObjectResult, writing value of type 'HotelListing.API.DTO.Countries.CountryDto'.
+2022-06-23 15:23:25.298 +02:00 [INF] Executed action HotelListing.API.Controllers.CountriesController.GetCountry (HotelListing.API) in 262.6515ms
+2022-06-23 15:23:25.299 +02:00 [INF] Executed endpoint 'HotelListing.API.Controllers.CountriesController.GetCountry (HotelListing.API)'
+2022-06-23 15:23:25.299 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/Countries/2 - - - 200 - application/json;+charset=utf-8 270.0497ms
+2022-06-23 15:23:53.241 +02:00 [INF] Request starting HTTP/2 PUT https://localhost:44367/api/Countries/2 application/json 56
+2022-06-23 15:23:53.241 +02:00 [INF] CORS policy execution successful.
+2022-06-23 15:23:53.242 +02:00 [INF] Executing endpoint 'HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API)'
+2022-06-23 15:23:53.247 +02:00 [INF] Route matched with {action = "PutCountry", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutCountry(Int32, HotelListing.API.DTO.Countries.UpdateCountryDto) on controller HotelListing.API.Controllers.CountriesController (HotelListing.API).
+2022-06-23 15:24:12.797 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2022-06-23 15:24:12.800 +02:00 [INF] Executed action HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API) in 19551.8947ms
+2022-06-23 15:24:12.800 +02:00 [INF] Executed endpoint 'HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API)'
+2022-06-23 15:24:12.800 +02:00 [INF] Request finished HTTP/2 PUT https://localhost:44367/api/Countries/2 application/json 56 - 400 - text/plain;+charset=utf-8 19558.9806ms
+2022-06-23 15:24:27.686 +02:00 [INF] Request starting HTTP/2 PUT https://localhost:44367/api/Countries/2 application/json 46
+2022-06-23 15:24:27.686 +02:00 [INF] CORS policy execution successful.
+2022-06-23 15:24:27.686 +02:00 [INF] Executing endpoint 'HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API)'
+2022-06-23 15:24:27.686 +02:00 [INF] Route matched with {action = "PutCountry", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutCountry(Int32, HotelListing.API.DTO.Countries.UpdateCountryDto) on controller HotelListing.API.Controllers.CountriesController (HotelListing.API).
+2022-06-23 15:24:27.696 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2022-06-23 15:24:27.699 +02:00 [INF] Executed action HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API) in 12.3752ms
+2022-06-23 15:24:27.699 +02:00 [INF] Executed endpoint 'HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API)'
+2022-06-23 15:24:27.699 +02:00 [INF] Request finished HTTP/2 PUT https://localhost:44367/api/Countries/2 application/json 46 - 400 - application/problem+json;+charset=utf-8 13.3389ms
+2022-06-23 15:24:56.519 +02:00 [INF] Request starting HTTP/2 PUT https://localhost:44367/api/Countries/2 application/json 48
+2022-06-23 15:24:56.519 +02:00 [INF] CORS policy execution successful.
+2022-06-23 15:24:56.519 +02:00 [INF] Executing endpoint 'HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API)'
+2022-06-23 15:24:56.519 +02:00 [INF] Route matched with {action = "PutCountry", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutCountry(Int32, HotelListing.API.DTO.Countries.UpdateCountryDto) on controller HotelListing.API.Controllers.CountriesController (HotelListing.API).
+2022-06-23 15:25:07.215 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2022-06-23 15:25:07.215 +02:00 [INF] Executed action HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API) in 10695.9395ms
+2022-06-23 15:25:07.216 +02:00 [INF] Executed endpoint 'HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API)'
+2022-06-23 15:25:07.216 +02:00 [INF] Request finished HTTP/2 PUT https://localhost:44367/api/Countries/2 application/json 48 - 400 - text/plain;+charset=utf-8 10697.0850ms
+2022-06-23 15:26:34.731 +02:00 [INF] Request starting HTTP/1.1 PUT https://localhost:44367/api/Countries/2 application/json 60
+2022-06-23 15:26:34.732 +02:00 [INF] Executing endpoint 'HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API)'
+2022-06-23 15:26:34.733 +02:00 [INF] Route matched with {action = "PutCountry", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutCountry(Int32, HotelListing.API.DTO.Countries.UpdateCountryDto) on controller HotelListing.API.Controllers.CountriesController (HotelListing.API).
+2022-06-23 15:26:54.172 +02:00 [INF] Entity Framework Core 6.0.6 initialized 'HotelListingDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.6' with options: None
+2022-06-23 15:26:54.185 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Name], [c].[ShortName]
+FROM [Countries] AS [c]
+WHERE [c].[Id] = @__p_0
+2022-06-23 15:26:57.675 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Countries] SET [Name] = @p0, [ShortName] = @p1
+WHERE [Id] = @p2;
+SELECT @@ROWCOUNT;
+2022-06-23 15:27:02.415 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2022-06-23 15:27:02.415 +02:00 [INF] Executed action HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API) in 27681.8728ms
+2022-06-23 15:27:02.415 +02:00 [INF] Executed endpoint 'HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API)'
+2022-06-23 15:27:02.416 +02:00 [INF] Request finished HTTP/1.1 PUT https://localhost:44367/api/Countries/2 application/json 60 - 204 - - 27684.4783ms
+2022-06-23 15:27:35.106 +02:00 [INF] Request starting HTTP/1.1 PUT https://localhost:44367/api/Countries/2 application/json 60
+2022-06-23 15:27:35.107 +02:00 [INF] Executing endpoint 'HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API)'
+2022-06-23 15:27:35.107 +02:00 [INF] Route matched with {action = "PutCountry", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutCountry(Int32, HotelListing.API.DTO.Countries.UpdateCountryDto) on controller HotelListing.API.Controllers.CountriesController (HotelListing.API).
+2022-06-23 15:27:48.992 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-23 15:27:49.010 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - -
+2022-06-23 15:27:49.046 +02:00 [INF] Hosting environment: Development
+2022-06-23 15:27:49.046 +02:00 [INF] Content root path: C:\Users\Milos\source\repos\HotelListing\HotelListing.API\
+2022-06-23 15:27:49.344 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - -
+2022-06-23 15:27:49.345 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - - - 200 - text/html;charset=utf-8 339.2772ms
+2022-06-23 15:27:49.355 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 6.3429ms
+2022-06-23 15:27:49.499 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - -
+2022-06-23 15:27:49.561 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 62.0081ms
+2022-06-23 15:27:49.736 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - -
+2022-06-23 15:27:49.864 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 128.1859ms
+2022-06-23 15:27:58.233 +02:00 [INF] Request starting HTTP/1.1 PUT https://localhost:44367/api/Countries/7 application/json 60
+2022-06-23 15:27:58.245 +02:00 [INF] Executing endpoint 'HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API)'
+2022-06-23 15:27:58.276 +02:00 [INF] Route matched with {action = "PutCountry", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutCountry(Int32, HotelListing.API.DTO.Countries.UpdateCountryDto) on controller HotelListing.API.Controllers.CountriesController (HotelListing.API).
+2022-06-23 15:28:06.018 +02:00 [INF] Entity Framework Core 6.0.6 initialized 'HotelListingDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.6' with options: None
+2022-06-23 15:28:06.914 +02:00 [INF] Executed DbCommand (56ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Name], [c].[ShortName]
+FROM [Countries] AS [c]
+WHERE [c].[Id] = @__p_0
+2022-06-23 15:28:07.104 +02:00 [INF] Executed DbCommand (7ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Countries] SET [Name] = @p0, [ShortName] = @p1
+WHERE [Id] = @p2;
+SELECT @@ROWCOUNT;
+2022-06-23 15:28:07.156 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2022-06-23 15:28:07.169 +02:00 [INF] Executed action HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API) in 8881.6952ms
+2022-06-23 15:28:07.170 +02:00 [INF] Executed endpoint 'HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API)'
+2022-06-23 15:28:07.180 +02:00 [INF] Request finished HTTP/1.1 PUT https://localhost:44367/api/Countries/7 application/json 60 - 204 - - 8946.9052ms
+2022-06-23 15:28:39.813 +02:00 [INF] Request starting HTTP/1.1 PUT https://localhost:44367/api/Countries/7 application/json 60
+2022-06-23 15:28:39.814 +02:00 [INF] Executing endpoint 'HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API)'
+2022-06-23 15:28:39.814 +02:00 [INF] Route matched with {action = "PutCountry", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutCountry(Int32, HotelListing.API.DTO.Countries.UpdateCountryDto) on controller HotelListing.API.Controllers.CountriesController (HotelListing.API).
+2022-06-23 15:28:44.833 +02:00 [INF] Entity Framework Core 6.0.6 initialized 'HotelListingDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.6' with options: None
+2022-06-23 15:28:44.866 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Name], [c].[ShortName]
+FROM [Countries] AS [c]
+WHERE [c].[Id] = @__p_0
+2022-06-23 15:29:00.263 +02:00 [INF] Executed DbCommand (31ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Countries] SET [Name] = @p0, [ShortName] = @p1
+WHERE [Id] = @p2;
+SELECT @@ROWCOUNT;
+2022-06-23 15:29:11.433 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2022-06-23 15:29:11.433 +02:00 [INF] Executed action HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API) in 31618.9284ms
+2022-06-23 15:29:11.433 +02:00 [INF] Executed endpoint 'HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API)'
+2022-06-23 15:29:11.434 +02:00 [INF] Request finished HTTP/1.1 PUT https://localhost:44367/api/Countries/7 application/json 60 - 204 - - 31620.8264ms
+2022-06-23 15:30:05.076 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-23 15:30:05.101 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - -
+2022-06-23 15:30:05.130 +02:00 [INF] Hosting environment: Development
+2022-06-23 15:30:05.131 +02:00 [INF] Content root path: C:\Users\Milos\source\repos\HotelListing\HotelListing.API\
+2022-06-23 15:30:05.537 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - - - 200 - text/html;charset=utf-8 442.6280ms
+2022-06-23 15:30:05.572 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - -
+2022-06-23 15:30:05.592 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 11.0323ms
+2022-06-23 15:30:05.749 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - -
+2022-06-23 15:30:05.791 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 42.4576ms
+2022-06-23 15:30:05.929 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - -
+2022-06-23 15:30:06.059 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 130.1920ms
+2022-06-23 15:30:11.852 +02:00 [INF] Request starting HTTP/1.1 PUT https://localhost:44367/api/Countries/7 application/json 60
+2022-06-23 15:30:11.861 +02:00 [INF] Executing endpoint 'HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API)'
+2022-06-23 15:30:11.887 +02:00 [INF] Route matched with {action = "PutCountry", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutCountry(Int32, HotelListing.API.DTO.Countries.UpdateCountryDto) on controller HotelListing.API.Controllers.CountriesController (HotelListing.API).
+2022-06-23 15:30:15.065 +02:00 [INF] Entity Framework Core 6.0.6 initialized 'HotelListingDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.6' with options: None
+2022-06-23 15:30:16.044 +02:00 [INF] Executed DbCommand (55ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Name], [c].[ShortName]
+FROM [Countries] AS [c]
+WHERE [c].[Id] = @__p_0
+2022-06-23 15:30:31.291 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Countries] SET [Name] = @p0, [ShortName] = @p1
+WHERE [Id] = @p2;
+SELECT @@ROWCOUNT;
+2022-06-23 15:31:27.780 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2022-06-23 15:31:27.788 +02:00 [INF] Executed action HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API) in 75895.2467ms
+2022-06-23 15:31:27.789 +02:00 [INF] Executed endpoint 'HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API)'
+2022-06-23 15:31:27.794 +02:00 [INF] Request finished HTTP/1.1 PUT https://localhost:44367/api/Countries/7 application/json 60 - 204 - - 75941.7795ms
+2022-06-23 15:31:44.040 +02:00 [INF] Request starting HTTP/1.1 PUT https://localhost:44367/api/Countries/7 application/json 60
+2022-06-23 15:31:44.040 +02:00 [INF] Executing endpoint 'HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API)'
+2022-06-23 15:31:44.041 +02:00 [INF] Route matched with {action = "PutCountry", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutCountry(Int32, HotelListing.API.DTO.Countries.UpdateCountryDto) on controller HotelListing.API.Controllers.CountriesController (HotelListing.API).
+2022-06-23 15:31:58.585 +02:00 [INF] Entity Framework Core 6.0.6 initialized 'HotelListingDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.6' with options: None
+2022-06-23 15:31:58.595 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Name], [c].[ShortName]
+FROM [Countries] AS [c]
+WHERE [c].[Id] = @__p_0
+2022-06-23 15:33:16.923 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-23 15:33:16.946 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - -
+2022-06-23 15:33:16.974 +02:00 [INF] Hosting environment: Development
+2022-06-23 15:33:16.974 +02:00 [INF] Content root path: C:\Users\Milos\source\repos\HotelListing\HotelListing.API\
+2022-06-23 15:33:17.294 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - -
+2022-06-23 15:33:17.297 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - - - 200 - text/html;charset=utf-8 352.5454ms
+2022-06-23 15:33:17.308 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 13.2857ms
+2022-06-23 15:33:17.393 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - -
+2022-06-23 15:33:17.452 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 59.7478ms
+2022-06-23 15:33:17.573 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - -
+2022-06-23 15:33:17.715 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 142.4080ms
+2022-06-23 15:33:21.325 +02:00 [INF] Request starting HTTP/1.1 PUT https://localhost:44367/api/Countries/7 application/json 60
+2022-06-23 15:33:21.342 +02:00 [INF] Executing endpoint 'HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API)'
+2022-06-23 15:33:21.386 +02:00 [INF] Route matched with {action = "PutCountry", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutCountry(Int32, HotelListing.API.DTO.Countries.UpdateCountryDto) on controller HotelListing.API.Controllers.CountriesController (HotelListing.API).
+2022-06-23 15:33:25.442 +02:00 [INF] Entity Framework Core 6.0.6 initialized 'HotelListingDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.6' with options: None
+2022-06-23 15:33:26.321 +02:00 [INF] Executed DbCommand (55ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Name], [c].[ShortName]
+FROM [Countries] AS [c]
+WHERE [c].[Id] = @__p_0
+2022-06-23 15:33:40.470 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Countries] SET [Name] = @p0, [ShortName] = @p1
+WHERE [Id] = @p2;
+SELECT @@ROWCOUNT;
+2022-06-23 15:33:42.890 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2022-06-23 15:33:42.896 +02:00 [INF] Executed action HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API) in 21505.1636ms
+2022-06-23 15:33:42.896 +02:00 [INF] Executed endpoint 'HotelListing.API.Controllers.CountriesController.PutCountry (HotelListing.API)'
+2022-06-23 15:33:42.901 +02:00 [INF] Request finished HTTP/1.1 PUT https://localhost:44367/api/Countries/7 application/json 60 - 204 - - 21575.6057ms
