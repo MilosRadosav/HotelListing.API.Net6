@@ -1,8 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using HotelListing.API.Data.Configurations;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 
 namespace HotelListing.API.Data
 {
-    public class HotelListingDbContext : DbContext
+    public class HotelListingDbContext : IdentityDbContext<APIUser>
     {
         public HotelListingDbContext(DbContextOptions options) : base(options)
 
@@ -16,58 +18,14 @@ namespace HotelListing.API.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            modelBuilder.Entity<Country>().HasData(
-                new Country
-                {
-                    Id = 1,
-                    Name = "Jamaica",
-                    ShortName = "JM"
-                },
-                new Country
-                {
-                    Id = 2,
-                    Name = "Bahamas",
-                    ShortName = "BS"
-                },
-                new Country
-                {
-                    Id = 3,
-                    Name = "Cayman Island",
-                    ShortName = "CI"
-                }
-                ); 
 
-            modelBuilder.Entity<Hotel>().HasData(
-                new Hotel
-                {
-                    Id = 1,
-                    Name = "Sandals Resort and Spa",
-                    Address = "Negril",
-                    CountryId = 1,
-                    Rating = 4.3
-                
+            modelBuilder.ApplyConfiguration(new RoleConfigurations());
 
-                },
-                 new Hotel
-                 {
-                     Id = 2,
-                     Name = "Comfort Suites",
-                     Address = "George Town",
-                     CountryId = 3,
-                     Rating = 4.5
+            modelBuilder.ApplyConfiguration(new CountryConfigurations());
 
+            modelBuilder.ApplyConfiguration(new HotelConfigurations());
 
-                 },
-                new Hotel
-                {
-                    Id = 3,
-                    Name = "Nassua Hotel",
-                    Address = "Nassua",
-                    CountryId = 2,
-                    Rating = 4.0
-
-                }
-                );
+            
 
         }
     }
