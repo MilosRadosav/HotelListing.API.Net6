@@ -1,0 +1,281 @@
+2022-08-08 11:59:41.744 +02:00 [INF] User profile is available. Using 'C:\Users\Milos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-08 11:59:42.064 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-08 11:59:42.064 +02:00 [INF] Hosting environment: Development
+2022-08-08 11:59:42.064 +02:00 [INF] Content root path: C:\Users\Milos\source\repos\HotelListing\HotelListing.API\
+2022-08-08 11:59:42.102 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - -
+2022-08-08 11:59:42.947 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - -
+2022-08-08 11:59:42.948 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - - - 200 - text/html;charset=utf-8 849.5895ms
+2022-08-08 11:59:42.958 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 4.9516ms
+2022-08-08 11:59:43.095 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - -
+2022-08-08 11:59:43.183 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 87.5633ms
+2022-08-08 11:59:43.284 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - -
+2022-08-08 11:59:43.428 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 144.2025ms
+2022-08-08 12:01:09.075 +02:00 [INF] User profile is available. Using 'C:\Users\Milos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-08 12:01:09.303 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-08 12:01:09.303 +02:00 [INF] Hosting environment: Development
+2022-08-08 12:01:09.304 +02:00 [INF] Content root path: C:\Users\Milos\source\repos\HotelListing\HotelListing.API\
+2022-08-08 12:01:09.326 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - -
+2022-08-08 12:01:09.620 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - - - 200 - text/html;charset=utf-8 285.5684ms
+2022-08-08 12:01:09.620 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - -
+2022-08-08 12:01:09.638 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 13.0538ms
+2022-08-08 12:01:09.711 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - -
+2022-08-08 12:01:09.798 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 47.4757ms
+2022-08-08 12:01:09.955 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - -
+2022-08-08 12:01:10.103 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 148.3827ms
+2022-08-08 12:01:48.415 +02:00 [INF] Request starting HTTP/2 DELETE https://localhost:44367/api/Countries/25 - -
+2022-08-08 12:01:48.425 +02:00 [INF] CORS policy execution successful.
+2022-08-08 12:01:48.554 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Administrator)
+2022-08-08 12:01:48.558 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2022-08-08 12:01:48.561 +02:00 [INF] Request finished HTTP/2 DELETE https://localhost:44367/api/Countries/25 - - - 401 - - 146.1696ms
+2022-08-08 12:02:29.487 +02:00 [INF] User profile is available. Using 'C:\Users\Milos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-08 12:02:29.738 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-08 12:02:29.739 +02:00 [INF] Hosting environment: Development
+2022-08-08 12:02:29.739 +02:00 [INF] Content root path: C:\Users\Milos\source\repos\HotelListing\HotelListing.API\
+2022-08-08 12:02:29.780 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - -
+2022-08-08 12:02:30.091 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - - - 200 - text/html;charset=utf-8 314.8036ms
+2022-08-08 12:02:30.091 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - -
+2022-08-08 12:02:30.109 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 14.8105ms
+2022-08-08 12:02:30.190 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - -
+2022-08-08 12:02:30.239 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 48.3949ms
+2022-08-08 12:02:30.346 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - -
+2022-08-08 12:02:30.515 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 169.4529ms
+2022-08-08 12:02:36.938 +02:00 [INF] Request starting HTTP/2 DELETE https://localhost:44367/api/Countries/25 - -
+2022-08-08 12:02:36.946 +02:00 [INF] CORS policy execution successful.
+2022-08-08 12:02:37.037 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Administrator)
+2022-08-08 12:02:37.040 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2022-08-08 12:02:37.043 +02:00 [INF] Request finished HTTP/2 DELETE https://localhost:44367/api/Countries/25 - - - 401 - - 104.4416ms
+2022-08-08 12:03:27.723 +02:00 [INF] User profile is available. Using 'C:\Users\Milos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-08 12:03:27.963 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-08 12:03:27.963 +02:00 [INF] Hosting environment: Development
+2022-08-08 12:03:27.963 +02:00 [INF] Content root path: C:\Users\Milos\source\repos\HotelListing\HotelListing.API\
+2022-08-08 12:03:27.990 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - -
+2022-08-08 12:03:28.238 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - -
+2022-08-08 12:03:28.238 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - - - 200 - text/html;charset=utf-8 247.2009ms
+2022-08-08 12:03:28.253 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 11.8048ms
+2022-08-08 12:03:28.334 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - -
+2022-08-08 12:03:28.396 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 62.3391ms
+2022-08-08 12:03:28.495 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - -
+2022-08-08 12:03:28.633 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 138.4972ms
+2022-08-08 12:03:49.288 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/Countries/25 - -
+2022-08-08 12:03:49.396 +02:00 [INF] Executing endpoint 'HotelListing.API.Controllers.CountriesController.GetCountry (HotelListing.API)'
+2022-08-08 12:03:49.441 +02:00 [INF] Route matched with {action = "GetCountry", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[HotelListing.API.DTO.Countries.CountryDto]] GetCountry(Int32) on controller HotelListing.API.Controllers.CountriesController (HotelListing.API).
+2022-08-08 12:03:49.794 +02:00 [INF] Executed action HotelListing.API.Controllers.CountriesController.GetCountry (HotelListing.API) in 348.2826ms
+2022-08-08 12:03:49.797 +02:00 [INF] Executed endpoint 'HotelListing.API.Controllers.CountriesController.GetCountry (HotelListing.API)'
+2022-08-08 12:03:49.801 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'HotelListing.API.Controllers.CountriesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method10(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-08-08 12:03:49.817 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/Countries/25 - - - 500 - text/plain;+charset=utf-8 529.6064ms
+2022-08-08 12:04:34.071 +02:00 [INF] User profile is available. Using 'C:\Users\Milos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-08 12:04:34.308 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-08 12:04:34.308 +02:00 [INF] Hosting environment: Development
+2022-08-08 12:04:34.308 +02:00 [INF] Content root path: C:\Users\Milos\source\repos\HotelListing\HotelListing.API\
+2022-08-08 12:04:34.348 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - -
+2022-08-08 12:04:34.622 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - - - 200 - text/html;charset=utf-8 276.1588ms
+2022-08-08 12:04:34.647 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - -
+2022-08-08 12:04:34.660 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 5.4238ms
+2022-08-08 12:04:34.750 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - -
+2022-08-08 12:04:34.800 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 49.9989ms
+2022-08-08 12:04:34.935 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - -
+2022-08-08 12:04:35.091 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 155.5660ms
+2022-08-08 12:04:44.917 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/Countries/25 - -
+2022-08-08 12:04:45.007 +02:00 [INF] Executing endpoint 'HotelListing.API.Controllers.CountriesController.GetCountry (HotelListing.API)'
+2022-08-08 12:04:45.035 +02:00 [INF] Route matched with {action = "GetCountry", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[HotelListing.API.DTO.Countries.CountryDto]] GetCountry(Int32) on controller HotelListing.API.Controllers.CountriesController (HotelListing.API).
+2022-08-08 12:04:51.548 +02:00 [INF] Entity Framework Core 6.0.6 initialized 'HotelListingDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.6' with options: None
+2022-08-08 12:04:52.676 +02:00 [INF] Executed DbCommand (59ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Name], [t].[ShortName], [h].[Id], [h].[Address], [h].[CountryId], [h].[Name], [h].[Rating]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[Name], [c].[ShortName]
+    FROM [Countries] AS [c]
+    WHERE [c].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [Hotels] AS [h] ON [t].[Id] = [h].[CountryId]
+ORDER BY [t].[Id]
+2022-08-08 12:04:55.532 +02:00 [INF] Executed action HotelListing.API.Controllers.CountriesController.GetCountry (HotelListing.API) in 10490.2294ms
+2022-08-08 12:04:55.533 +02:00 [INF] Executed endpoint 'HotelListing.API.Controllers.CountriesController.GetCountry (HotelListing.API)'
+2022-08-08 12:04:55.539 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+HotelListing.API.Exceptions.NotFoundException: GetCountry (25) was not found
+   at HotelListing.API.Controllers.CountriesController.GetCountry(Int32 id) in C:\Users\Milos\source\repos\HotelListing\HotelListing.API\Controllers\CountriesController.cs:line 49
+   at lambda_method6(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-08-08 12:04:55.558 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/Countries/25 - - - 500 - text/plain;+charset=utf-8 10641.8638ms
+2022-08-08 14:15:06.430 +02:00 [INF] User profile is available. Using 'C:\Users\Milos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-08 14:15:06.769 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-08 14:15:06.770 +02:00 [INF] Hosting environment: Development
+2022-08-08 14:15:06.773 +02:00 [INF] Content root path: C:\Users\Milos\source\repos\HotelListing\HotelListing.API\
+2022-08-08 14:15:06.820 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - -
+2022-08-08 14:15:07.146 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - - - 200 - text/html;charset=utf-8 329.1925ms
+2022-08-08 14:15:07.262 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - -
+2022-08-08 14:15:07.272 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 3.6258ms
+2022-08-08 14:15:07.281 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - -
+2022-08-08 14:15:07.335 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 54.5717ms
+2022-08-08 14:15:07.447 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - -
+2022-08-08 14:15:07.618 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 171.5323ms
+2022-08-08 14:16:23.554 +02:00 [INF] User profile is available. Using 'C:\Users\Milos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-08 14:16:23.857 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-08 14:16:23.857 +02:00 [INF] Hosting environment: Development
+2022-08-08 14:16:23.857 +02:00 [INF] Content root path: C:\Users\Milos\source\repos\HotelListing\HotelListing.API\
+2022-08-08 14:16:23.888 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - -
+2022-08-08 14:16:24.189 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - -
+2022-08-08 14:16:24.191 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - - - 200 - text/html;charset=utf-8 306.4120ms
+2022-08-08 14:16:24.206 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 14.7776ms
+2022-08-08 14:16:24.321 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - -
+2022-08-08 14:16:24.386 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 65.5701ms
+2022-08-08 14:16:24.504 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - -
+2022-08-08 14:16:24.652 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 147.5887ms
+2022-08-08 14:18:14.237 +02:00 [INF] User profile is available. Using 'C:\Users\Milos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-08 14:18:14.500 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-08 14:18:14.500 +02:00 [INF] Hosting environment: Development
+2022-08-08 14:18:14.500 +02:00 [INF] Content root path: C:\Users\Milos\source\repos\HotelListing\HotelListing.API\
+2022-08-08 14:18:14.534 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - -
+2022-08-08 14:18:14.780 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - -
+2022-08-08 14:18:14.781 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - - - 200 - text/html;charset=utf-8 249.2214ms
+2022-08-08 14:18:14.791 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 10.5764ms
+2022-08-08 14:18:14.874 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - -
+2022-08-08 14:18:14.929 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 54.6013ms
+2022-08-08 14:18:15.079 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - -
+2022-08-08 14:18:15.217 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 138.0780ms
+2022-08-08 14:18:42.558 +02:00 [INF] User profile is available. Using 'C:\Users\Milos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-08 14:18:42.827 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-08 14:18:42.827 +02:00 [INF] Hosting environment: Development
+2022-08-08 14:18:42.828 +02:00 [INF] Content root path: C:\Users\Milos\source\repos\HotelListing\HotelListing.API\
+2022-08-08 14:18:42.849 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - -
+2022-08-08 14:18:43.131 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - -
+2022-08-08 14:18:43.132 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - - - 200 - text/html;charset=utf-8 285.2359ms
+2022-08-08 14:18:43.143 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 10.9546ms
+2022-08-08 14:18:43.228 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - -
+2022-08-08 14:18:43.276 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 48.0697ms
+2022-08-08 14:18:43.429 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - -
+2022-08-08 14:18:43.504 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 74.3383ms
+2022-08-08 14:19:08.265 +02:00 [INF] User profile is available. Using 'C:\Users\Milos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-08 14:19:08.539 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-08 14:19:08.539 +02:00 [INF] Hosting environment: Development
+2022-08-08 14:19:08.539 +02:00 [INF] Content root path: C:\Users\Milos\source\repos\HotelListing\HotelListing.API\
+2022-08-08 14:19:08.558 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - -
+2022-08-08 14:19:08.838 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - -
+2022-08-08 14:19:08.839 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - - - 200 - text/html;charset=utf-8 282.6978ms
+2022-08-08 14:19:08.854 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 14.7891ms
+2022-08-08 14:19:08.948 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - -
+2022-08-08 14:19:09.006 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 57.8405ms
+2022-08-08 14:19:09.119 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - -
+2022-08-08 14:19:09.190 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 70.7679ms
+2022-08-08 14:23:33.238 +02:00 [INF] User profile is available. Using 'C:\Users\Milos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-08 14:23:33.457 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-08 14:23:33.458 +02:00 [INF] Hosting environment: Development
+2022-08-08 14:23:33.458 +02:00 [INF] Content root path: C:\Users\Milos\source\repos\HotelListing\HotelListing.API\
+2022-08-08 14:23:33.490 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - -
+2022-08-08 14:23:33.760 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - - - 200 - text/html;charset=utf-8 276.5078ms
+2022-08-08 14:23:33.775 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - -
+2022-08-08 14:23:33.780 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 3.6065ms
+2022-08-08 14:23:33.870 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - -
+2022-08-08 14:23:33.918 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 48.0061ms
+2022-08-08 14:23:34.078 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - -
+2022-08-08 14:23:34.153 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 74.2634ms
+2022-08-08 14:24:27.521 +02:00 [INF] User profile is available. Using 'C:\Users\Milos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-08 14:24:27.748 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-08 14:24:27.748 +02:00 [INF] Hosting environment: Development
+2022-08-08 14:24:27.748 +02:00 [INF] Content root path: C:\Users\Milos\source\repos\HotelListing\HotelListing.API\
+2022-08-08 14:24:27.779 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - -
+2022-08-08 14:24:28.028 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - - - 200 - text/html;charset=utf-8 246.2452ms
+2022-08-08 14:24:28.028 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - -
+2022-08-08 14:24:28.049 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 15.4566ms
+2022-08-08 14:24:28.133 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - -
+2022-08-08 14:24:28.178 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 44.4014ms
+2022-08-08 14:24:28.289 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - -
+2022-08-08 14:24:28.435 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 146.6211ms
+2022-08-08 14:24:52.892 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/Countries?StartIndex=0&PageNumber=1&PageSize=24 - -
+2022-08-08 14:24:52.998 +02:00 [INF] Executing endpoint 'HotelListing.API.Controllers.CountriesController.GetPagedCountries (HotelListing.API)'
+2022-08-08 14:24:53.044 +02:00 [INF] Route matched with {action = "GetPagedCountries", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[HotelListing.API.DTO.PageResult`1[HotelListing.API.DTO.Countries.GetCountryDto]]]] GetPagedCountries(HotelListing.API.DTO.QueryParameters) on controller HotelListing.API.Controllers.CountriesController (HotelListing.API).
+2022-08-08 14:24:54.297 +02:00 [INF] Entity Framework Core 6.0.6 initialized 'HotelListingDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.6' with options: None
+2022-08-08 14:24:55.034 +02:00 [INF] Executed DbCommand (43ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Countries] AS [c]
+2022-08-08 14:24:55.110 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2022-08-08 14:24:55.110 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2022-08-08 14:24:55.164 +02:00 [INF] Executed DbCommand (24ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name], [c].[ShortName]
+FROM [Countries] AS [c]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2022-08-08 14:24:55.179 +02:00 [INF] Executing OkObjectResult, writing value of type 'HotelListing.API.DTO.PageResult`1[[HotelListing.API.DTO.Countries.GetCountryDto, HotelListing.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-08-08 14:24:55.192 +02:00 [INF] Executed action HotelListing.API.Controllers.CountriesController.GetPagedCountries (HotelListing.API) in 2140.7199ms
+2022-08-08 14:24:55.193 +02:00 [INF] Executed endpoint 'HotelListing.API.Controllers.CountriesController.GetPagedCountries (HotelListing.API)'
+2022-08-08 14:24:55.200 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/Countries?StartIndex=0&PageNumber=1&PageSize=24 - - - 200 - application/json;+charset=utf-8 2307.9892ms
+2022-08-08 14:25:04.881 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/Countries?StartIndex=0&PageNumber=1&PageSize=2 - -
+2022-08-08 14:25:04.907 +02:00 [INF] Executing endpoint 'HotelListing.API.Controllers.CountriesController.GetPagedCountries (HotelListing.API)'
+2022-08-08 14:25:04.911 +02:00 [INF] Route matched with {action = "GetPagedCountries", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[HotelListing.API.DTO.PageResult`1[HotelListing.API.DTO.Countries.GetCountryDto]]]] GetPagedCountries(HotelListing.API.DTO.QueryParameters) on controller HotelListing.API.Controllers.CountriesController (HotelListing.API).
+2022-08-08 14:25:04.956 +02:00 [INF] Entity Framework Core 6.0.6 initialized 'HotelListingDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.6' with options: None
+2022-08-08 14:25:04.961 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Countries] AS [c]
+2022-08-08 14:25:04.967 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name], [c].[ShortName]
+FROM [Countries] AS [c]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2022-08-08 14:25:04.969 +02:00 [INF] Executing OkObjectResult, writing value of type 'HotelListing.API.DTO.PageResult`1[[HotelListing.API.DTO.Countries.GetCountryDto, HotelListing.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-08-08 14:25:04.971 +02:00 [INF] Executed action HotelListing.API.Controllers.CountriesController.GetPagedCountries (HotelListing.API) in 59.6306ms
+2022-08-08 14:25:04.971 +02:00 [INF] Executed endpoint 'HotelListing.API.Controllers.CountriesController.GetPagedCountries (HotelListing.API)'
+2022-08-08 14:25:04.972 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/Countries?StartIndex=0&PageNumber=1&PageSize=2 - - - 200 - application/json;+charset=utf-8 90.2463ms
+2022-08-08 14:25:15.619 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/Countries?StartIndex=0&PageNumber=2&PageSize=2 - -
+2022-08-08 14:25:15.622 +02:00 [INF] Executing endpoint 'HotelListing.API.Controllers.CountriesController.GetPagedCountries (HotelListing.API)'
+2022-08-08 14:25:15.622 +02:00 [INF] Route matched with {action = "GetPagedCountries", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[HotelListing.API.DTO.PageResult`1[HotelListing.API.DTO.Countries.GetCountryDto]]]] GetPagedCountries(HotelListing.API.DTO.QueryParameters) on controller HotelListing.API.Controllers.CountriesController (HotelListing.API).
+2022-08-08 14:25:15.642 +02:00 [INF] Entity Framework Core 6.0.6 initialized 'HotelListingDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.6' with options: None
+2022-08-08 14:25:15.645 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Countries] AS [c]
+2022-08-08 14:25:15.650 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name], [c].[ShortName]
+FROM [Countries] AS [c]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2022-08-08 14:25:15.652 +02:00 [INF] Executing OkObjectResult, writing value of type 'HotelListing.API.DTO.PageResult`1[[HotelListing.API.DTO.Countries.GetCountryDto, HotelListing.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-08-08 14:25:15.653 +02:00 [INF] Executed action HotelListing.API.Controllers.CountriesController.GetPagedCountries (HotelListing.API) in 30.588ms
+2022-08-08 14:25:15.653 +02:00 [INF] Executed endpoint 'HotelListing.API.Controllers.CountriesController.GetPagedCountries (HotelListing.API)'
+2022-08-08 14:25:15.654 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/Countries?StartIndex=0&PageNumber=2&PageSize=2 - - - 200 - application/json;+charset=utf-8 34.9461ms
+2022-08-08 14:25:21.180 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/Countries?StartIndex=1&PageNumber=2&PageSize=2 - -
+2022-08-08 14:25:21.181 +02:00 [INF] Executing endpoint 'HotelListing.API.Controllers.CountriesController.GetPagedCountries (HotelListing.API)'
+2022-08-08 14:25:21.181 +02:00 [INF] Route matched with {action = "GetPagedCountries", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[HotelListing.API.DTO.PageResult`1[HotelListing.API.DTO.Countries.GetCountryDto]]]] GetPagedCountries(HotelListing.API.DTO.QueryParameters) on controller HotelListing.API.Controllers.CountriesController (HotelListing.API).
+2022-08-08 14:25:21.182 +02:00 [INF] Entity Framework Core 6.0.6 initialized 'HotelListingDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.6' with options: None
+2022-08-08 14:25:21.191 +02:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Countries] AS [c]
+2022-08-08 14:25:21.195 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name], [c].[ShortName]
+FROM [Countries] AS [c]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2022-08-08 14:25:21.202 +02:00 [INF] Executing OkObjectResult, writing value of type 'HotelListing.API.DTO.PageResult`1[[HotelListing.API.DTO.Countries.GetCountryDto, HotelListing.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-08-08 14:25:21.209 +02:00 [INF] Executed action HotelListing.API.Controllers.CountriesController.GetPagedCountries (HotelListing.API) in 27.7997ms
+2022-08-08 14:25:21.209 +02:00 [INF] Executed endpoint 'HotelListing.API.Controllers.CountriesController.GetPagedCountries (HotelListing.API)'
+2022-08-08 14:25:21.209 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/Countries?StartIndex=1&PageNumber=2&PageSize=2 - - - 200 - application/json;+charset=utf-8 28.9697ms

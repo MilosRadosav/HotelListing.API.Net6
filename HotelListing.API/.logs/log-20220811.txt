@@ -1,0 +1,498 @@
+2022-08-11 14:36:09.233 +02:00 [INF] User profile is available. Using 'C:\Users\Milos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-11 14:36:09.542 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-11 14:36:09.542 +02:00 [INF] Hosting environment: Development
+2022-08-11 14:36:09.542 +02:00 [INF] Content root path: C:\Users\Milos\source\repos\HotelListing\HotelListing.API\
+2022-08-11 14:36:09.580 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger - -
+2022-08-11 14:36:09.712 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - -
+2022-08-11 14:36:09.727 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger - - - 301 - - 149.4039ms
+2022-08-11 14:36:09.958 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - - - 200 - text/html;charset=utf-8 244.5108ms
+2022-08-11 14:36:09.971 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/swagger-ui.css - -
+2022-08-11 14:36:09.972 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/swagger-ui-bundle.js - -
+2022-08-11 14:36:09.973 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/swagger-ui-standalone-preset.js - -
+2022-08-11 14:36:09.984 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - -
+2022-08-11 14:36:10.002 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 16.3446ms
+2022-08-11 14:36:10.022 +02:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-08-11 14:36:10.022 +02:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-08-11 14:36:10.022 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-08-11 14:36:10.025 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/swagger-ui.css - - - 200 143632 text/css 61.9203ms
+2022-08-11 14:36:10.035 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 62.5727ms
+2022-08-11 14:36:10.067 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 95.4204ms
+2022-08-11 14:36:10.086 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - -
+2022-08-11 14:36:10.333 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 246.7056ms
+2022-08-11 14:36:10.425 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - -
+2022-08-11 14:36:10.461 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/favicon-32x32.png - -
+2022-08-11 14:36:10.463 +02:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-08-11 14:36:10.464 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/favicon-32x32.png - - - 200 628 image/png 2.5117ms
+2022-08-11 14:36:10.551 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Hotels" for actions - HotelListing.API.Controllers.HotelsController.GetHotels (HotelListing.API),HotelListing.API.Controllers.HotelsController.GetPagedHotels (HotelListing.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-08-11 14:36:10.643 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 217.8121ms
+2022-08-11 14:36:32.648 +02:00 [INF] User profile is available. Using 'C:\Users\Milos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-11 14:36:32.877 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-11 14:36:32.877 +02:00 [INF] Hosting environment: Development
+2022-08-11 14:36:32.877 +02:00 [INF] Content root path: C:\Users\Milos\source\repos\HotelListing\HotelListing.API\
+2022-08-11 14:36:32.909 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - -
+2022-08-11 14:36:33.180 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - -
+2022-08-11 14:36:33.181 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - - - 200 - text/html;charset=utf-8 275.5338ms
+2022-08-11 14:36:33.196 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 15.5807ms
+2022-08-11 14:36:33.287 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - -
+2022-08-11 14:36:33.346 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 58.5410ms
+2022-08-11 14:36:33.562 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - -
+2022-08-11 14:36:33.679 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Hotels" for actions - HotelListing.API.Controllers.HotelsController.GetHotels (HotelListing.API),HotelListing.API.Controllers.HotelsController.GetPagedHotels (HotelListing.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-08-11 14:36:33.725 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 163.3230ms
+2022-08-11 14:36:58.324 +02:00 [INF] User profile is available. Using 'C:\Users\Milos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-11 14:36:58.600 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-11 14:36:58.601 +02:00 [INF] Hosting environment: Development
+2022-08-11 14:36:58.601 +02:00 [INF] Content root path: C:\Users\Milos\source\repos\HotelListing\HotelListing.API\
+2022-08-11 14:36:58.623 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - -
+2022-08-11 14:36:58.883 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - -
+2022-08-11 14:36:58.885 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - - - 200 - text/html;charset=utf-8 263.1690ms
+2022-08-11 14:36:58.900 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 17.0035ms
+2022-08-11 14:36:58.987 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - -
+2022-08-11 14:36:59.044 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 57.1349ms
+2022-08-11 14:36:59.148 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - -
+2022-08-11 14:36:59.246 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Hotels" for actions - HotelListing.API.Controllers.HotelsController.GetHotels (HotelListing.API),HotelListing.API.Controllers.HotelsController.GetPagedHotels (HotelListing.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-08-11 14:36:59.296 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 147.6998ms
+2022-08-11 14:37:16.188 +02:00 [INF] User profile is available. Using 'C:\Users\Milos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-11 14:37:16.421 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-11 14:37:16.421 +02:00 [INF] Hosting environment: Development
+2022-08-11 14:37:16.421 +02:00 [INF] Content root path: C:\Users\Milos\source\repos\HotelListing\HotelListing.API\
+2022-08-11 14:37:16.452 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - -
+2022-08-11 14:37:16.699 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - -
+2022-08-11 14:37:16.700 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - - - 200 - text/html;charset=utf-8 245.0616ms
+2022-08-11 14:37:16.719 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 14.6814ms
+2022-08-11 14:37:16.803 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - -
+2022-08-11 14:37:16.870 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 67.6010ms
+2022-08-11 14:37:16.975 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - -
+2022-08-11 14:37:17.083 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Hotels" for actions - HotelListing.API.Controllers.HotelsController.GetHotels (HotelListing.API),HotelListing.API.Controllers.HotelsController.GetPagedHotels (HotelListing.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-08-11 14:37:17.127 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 151.7213ms
+2022-08-11 14:38:02.776 +02:00 [INF] User profile is available. Using 'C:\Users\Milos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-11 14:38:03.310 +02:00 [INF] Now listening on: https://localhost:7204
+2022-08-11 14:38:03.312 +02:00 [INF] Now listening on: http://localhost:5204
+2022-08-11 14:38:03.315 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-11 14:38:03.316 +02:00 [INF] Hosting environment: Development
+2022-08-11 14:38:03.317 +02:00 [INF] Content root path: C:\Users\Milos\source\repos\HotelListing\HotelListing.API\
+2022-08-11 14:38:03.836 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7204/swagger - -
+2022-08-11 14:38:03.942 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7204/swagger - - - 301 0 - 108.4695ms
+2022-08-11 14:38:03.955 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2022-08-11 14:38:04.088 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 132.8600ms
+2022-08-11 14:38:04.097 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7204/swagger/swagger-ui-bundle.js - -
+2022-08-11 14:38:04.097 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7204/swagger/swagger-ui-standalone-preset.js - -
+2022-08-11 14:38:04.097 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7204/swagger/swagger-ui.css - -
+2022-08-11 14:38:04.098 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2022-08-11 14:38:04.116 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 18.1300ms
+2022-08-11 14:38:04.156 +02:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-08-11 14:38:04.156 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-08-11 14:38:04.164 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7204/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 66.0217ms
+2022-08-11 14:38:04.169 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7204/swagger/swagger-ui.css - - - 200 143632 text/css 71.6078ms
+2022-08-11 14:38:04.170 +02:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-08-11 14:38:04.173 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7204/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 75.3450ms
+2022-08-11 14:38:04.237 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7204/_vs/browserLink - -
+2022-08-11 14:38:04.271 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7204/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 33.6369ms
+2022-08-11 14:38:04.500 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2022-08-11 14:38:04.530 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2022-08-11 14:38:04.536 +02:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-08-11 14:38:04.540 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 10.1125ms
+2022-08-11 14:38:04.639 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Hotels" for actions - HotelListing.API.Controllers.HotelsController.GetHotels (HotelListing.API),HotelListing.API.Controllers.HotelsController.GetPagedHotels (HotelListing.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-08-11 14:38:04.688 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 187.9553ms
+2022-08-11 14:39:02.609 +02:00 [INF] User profile is available. Using 'C:\Users\Milos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-11 14:39:02.859 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-11 14:39:02.859 +02:00 [INF] Hosting environment: Development
+2022-08-11 14:39:02.859 +02:00 [INF] Content root path: C:\Users\Milos\source\repos\HotelListing\HotelListing.API\
+2022-08-11 14:39:02.890 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - -
+2022-08-11 14:39:03.170 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - -
+2022-08-11 14:39:03.171 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - - - 200 - text/html;charset=utf-8 285.5930ms
+2022-08-11 14:39:03.187 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 13.2612ms
+2022-08-11 14:39:03.277 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - -
+2022-08-11 14:39:03.330 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 53.0245ms
+2022-08-11 14:39:03.445 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - -
+2022-08-11 14:39:03.592 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Hotels" for actions - HotelListing.API.Controllers.HotelsController.GetHotels (HotelListing.API),HotelListing.API.Controllers.HotelsController.GetPagedHotels (HotelListing.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-08-11 14:39:03.675 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 229.7011ms
+2022-08-11 14:40:24.035 +02:00 [INF] User profile is available. Using 'C:\Users\Milos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-11 14:40:24.263 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-11 14:40:24.263 +02:00 [INF] Hosting environment: Development
+2022-08-11 14:40:24.263 +02:00 [INF] Content root path: C:\Users\Milos\source\repos\HotelListing\HotelListing.API\
+2022-08-11 14:40:24.291 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - -
+2022-08-11 14:40:24.540 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - -
+2022-08-11 14:40:24.541 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - - - 200 - text/html;charset=utf-8 252.8200ms
+2022-08-11 14:40:24.556 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 12.4299ms
+2022-08-11 14:40:24.640 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - -
+2022-08-11 14:40:24.696 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 55.5931ms
+2022-08-11 14:40:24.795 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - -
+2022-08-11 14:40:24.901 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Hotels" for actions - HotelListing.API.Controllers.HotelsController.GetHotels (HotelListing.API),HotelListing.API.Controllers.HotelsController.GetPagedHotels (HotelListing.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-08-11 14:40:24.947 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 151.9473ms
+2022-08-11 14:41:15.870 +02:00 [INF] User profile is available. Using 'C:\Users\Milos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-11 14:41:16.097 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-11 14:41:16.110 +02:00 [INF] Hosting environment: Development
+2022-08-11 14:41:16.110 +02:00 [INF] Content root path: C:\Users\Milos\source\repos\HotelListing\HotelListing.API\
+2022-08-11 14:41:16.152 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger - -
+2022-08-11 14:41:16.152 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - -
+2022-08-11 14:41:16.290 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - -
+2022-08-11 14:41:16.294 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger - - - 301 - - 151.0157ms
+2022-08-11 14:41:16.433 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - - - 200 - text/html;charset=utf-8 291.1014ms
+2022-08-11 14:41:16.438 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - - - 200 - text/html;charset=utf-8 144.7883ms
+2022-08-11 14:41:16.443 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - -
+2022-08-11 14:41:16.451 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 6.6764ms
+2022-08-11 14:41:16.532 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - -
+2022-08-11 14:41:16.582 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 50.3835ms
+2022-08-11 14:41:16.689 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - -
+2022-08-11 14:41:16.848 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 159.7451ms
+2022-08-11 14:42:13.852 +02:00 [INF] User profile is available. Using 'C:\Users\Milos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-11 14:42:14.096 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-11 14:42:14.097 +02:00 [INF] Hosting environment: Development
+2022-08-11 14:42:14.097 +02:00 [INF] Content root path: C:\Users\Milos\source\repos\HotelListing\HotelListing.API\
+2022-08-11 14:42:14.135 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - -
+2022-08-11 14:42:14.425 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - -
+2022-08-11 14:42:14.426 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - - - 200 - text/html;charset=utf-8 290.0079ms
+2022-08-11 14:42:14.445 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 12.8723ms
+2022-08-11 14:42:14.536 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - -
+2022-08-11 14:42:14.582 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 46.1365ms
+2022-08-11 14:42:14.696 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - -
+2022-08-11 14:42:14.896 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 199.7576ms
+2022-08-11 14:42:42.784 +02:00 [INF] User profile is available. Using 'C:\Users\Milos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-11 14:42:43.037 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-11 14:42:43.038 +02:00 [INF] Hosting environment: Development
+2022-08-11 14:42:43.038 +02:00 [INF] Content root path: C:\Users\Milos\source\repos\HotelListing\HotelListing.API\
+2022-08-11 14:42:43.081 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - -
+2022-08-11 14:42:43.346 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - - - 200 - text/html;charset=utf-8 265.3661ms
+2022-08-11 14:42:43.346 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - -
+2022-08-11 14:42:43.364 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 14.2689ms
+2022-08-11 14:42:43.441 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - -
+2022-08-11 14:42:43.494 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 52.8159ms
+2022-08-11 14:42:43.623 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - -
+2022-08-11 14:42:43.800 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 177.7695ms
+2022-08-11 14:43:54.800 +02:00 [INF] User profile is available. Using 'C:\Users\Milos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-11 14:43:55.067 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-11 14:43:55.067 +02:00 [INF] Hosting environment: Development
+2022-08-11 14:43:55.068 +02:00 [INF] Content root path: C:\Users\Milos\source\repos\HotelListing\HotelListing.API\
+2022-08-11 14:43:55.105 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - -
+2022-08-11 14:43:55.398 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - -
+2022-08-11 14:43:55.400 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - - - 200 - text/html;charset=utf-8 297.8328ms
+2022-08-11 14:43:55.412 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 12.3558ms
+2022-08-11 14:43:55.503 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - -
+2022-08-11 14:43:55.555 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 51.6671ms
+2022-08-11 14:43:55.664 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - -
+2022-08-11 14:43:55.843 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 178.7154ms
+2022-08-11 14:44:16.329 +02:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:44367/api/Countries application/json 58
+2022-08-11 14:44:16.697 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2022-08-11 14:44:16.707 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+2022-08-11 14:44:16.714 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2022-08-11 14:44:16.715 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2022-08-11 14:44:16.718 +02:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:44367/api/Countries application/json 58 - 405 - - 389.7885ms
+2022-08-11 14:44:32.723 +02:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:44367/api/Countries/get-all application/json 58
+2022-08-11 14:44:32.757 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2022-08-11 14:44:32.757 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+2022-08-11 14:44:32.765 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Administrator)
+2022-08-11 14:44:32.772 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2022-08-11 14:44:32.772 +02:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:44367/api/Countries/get-all application/json 58 - 401 - - 49.8978ms
+2022-08-11 14:44:55.562 +02:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:44367/api/Countries/GetAll application/json 58
+2022-08-11 14:44:55.564 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2022-08-11 14:44:55.564 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+2022-08-11 14:44:55.565 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Administrator)
+2022-08-11 14:44:55.565 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2022-08-11 14:44:55.565 +02:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:44367/api/Countries/GetAll application/json 58 - 401 - - 3.6659ms
+2022-08-11 14:45:27.147 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44367/api/Countries/GetAll application/json 58
+2022-08-11 14:45:27.148 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2022-08-11 14:45:27.149 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+2022-08-11 14:45:27.149 +02:00 [INF] Executing endpoint 'HotelListing.API.Controllers.CountriesController.GetCountries (HotelListing.API)'
+2022-08-11 14:45:27.178 +02:00 [INF] Route matched with {action = "GetCountries", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[HotelListing.API.DTO.Countries.GetCountryDto]]] GetCountries() on controller HotelListing.API.Controllers.CountriesController (HotelListing.API).
+2022-08-11 14:45:28.546 +02:00 [INF] Entity Framework Core 6.0.6 initialized 'HotelListingDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.6' with options: None
+2022-08-11 14:45:29.473 +02:00 [INF] Executed DbCommand (40ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name], [c].[ShortName]
+FROM [Countries] AS [c]
+2022-08-11 14:45:29.572 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[HotelListing.API.DTO.Countries.GetCountryDto, HotelListing.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-08-11 14:45:29.583 +02:00 [INF] Executed action HotelListing.API.Controllers.CountriesController.GetCountries (HotelListing.API) in 2400.3884ms
+2022-08-11 14:45:29.584 +02:00 [INF] Executed endpoint 'HotelListing.API.Controllers.CountriesController.GetCountries (HotelListing.API)'
+2022-08-11 14:45:29.588 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44367/api/Countries/GetAll application/json 58 - 200 - application/json;+charset=utf-8 2441.2302ms
+2022-08-11 14:45:51.882 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44367/api/Countries application/json 58
+2022-08-11 14:45:51.884 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2022-08-11 14:45:51.885 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+2022-08-11 14:45:51.885 +02:00 [INF] Executing endpoint 'HotelListing.API.Controllers.CountriesController.GetPagedCountries (HotelListing.API)'
+2022-08-11 14:45:51.904 +02:00 [INF] Route matched with {action = "GetPagedCountries", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[HotelListing.API.DTO.PageResult`1[HotelListing.API.DTO.Countries.GetCountryDto]]]] GetPagedCountries(HotelListing.API.DTO.QueryParameters) on controller HotelListing.API.Controllers.CountriesController (HotelListing.API).
+2022-08-11 14:45:51.983 +02:00 [INF] Entity Framework Core 6.0.6 initialized 'HotelListingDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.6' with options: None
+2022-08-11 14:45:52.060 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Countries] AS [c]
+2022-08-11 14:45:52.115 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2022-08-11 14:45:52.116 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2022-08-11 14:45:52.188 +02:00 [INF] Executed DbCommand (28ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name], [c].[ShortName]
+FROM [Countries] AS [c]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2022-08-11 14:45:52.192 +02:00 [INF] Executing OkObjectResult, writing value of type 'HotelListing.API.DTO.PageResult`1[[HotelListing.API.DTO.Countries.GetCountryDto, HotelListing.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-08-11 14:45:52.194 +02:00 [INF] Executed action HotelListing.API.Controllers.CountriesController.GetPagedCountries (HotelListing.API) in 288.9752ms
+2022-08-11 14:45:52.194 +02:00 [INF] Executed endpoint 'HotelListing.API.Controllers.CountriesController.GetPagedCountries (HotelListing.API)'
+2022-08-11 14:45:52.194 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44367/api/Countries application/json 58 - 200 - application/json;+charset=utf-8 312.3743ms
+2022-08-11 14:46:16.566 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44367/api/Countries?$select=name,shortname application/json 58
+2022-08-11 14:46:16.567 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2022-08-11 14:46:16.567 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+2022-08-11 14:46:16.567 +02:00 [INF] Executing endpoint 'HotelListing.API.Controllers.CountriesController.GetPagedCountries (HotelListing.API)'
+2022-08-11 14:46:16.568 +02:00 [INF] Route matched with {action = "GetPagedCountries", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[HotelListing.API.DTO.PageResult`1[HotelListing.API.DTO.Countries.GetCountryDto]]]] GetPagedCountries(HotelListing.API.DTO.QueryParameters) on controller HotelListing.API.Controllers.CountriesController (HotelListing.API).
+2022-08-11 14:46:16.586 +02:00 [INF] Entity Framework Core 6.0.6 initialized 'HotelListingDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.6' with options: None
+2022-08-11 14:46:16.591 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Countries] AS [c]
+2022-08-11 14:46:16.597 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name], [c].[ShortName]
+FROM [Countries] AS [c]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2022-08-11 14:46:16.598 +02:00 [INF] Executing OkObjectResult, writing value of type 'HotelListing.API.DTO.PageResult`1[[HotelListing.API.DTO.Countries.GetCountryDto, HotelListing.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-08-11 14:46:16.598 +02:00 [INF] Executed action HotelListing.API.Controllers.CountriesController.GetPagedCountries (HotelListing.API) in 30.617ms
+2022-08-11 14:46:16.599 +02:00 [INF] Executed endpoint 'HotelListing.API.Controllers.CountriesController.GetPagedCountries (HotelListing.API)'
+2022-08-11 14:46:16.599 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44367/api/Countries?$select=name,shortname application/json 58 - 200 - application/json;+charset=utf-8 32.9423ms
+2022-08-11 14:48:04.014 +02:00 [INF] User profile is available. Using 'C:\Users\Milos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-11 14:48:04.267 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-11 14:48:04.267 +02:00 [INF] Hosting environment: Development
+2022-08-11 14:48:04.267 +02:00 [INF] Content root path: C:\Users\Milos\source\repos\HotelListing\HotelListing.API\
+2022-08-11 14:48:04.306 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - -
+2022-08-11 14:48:04.580 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - -
+2022-08-11 14:48:04.581 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - - - 200 - text/html;charset=utf-8 279.7717ms
+2022-08-11 14:48:04.598 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 12.8930ms
+2022-08-11 14:48:04.671 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - -
+2022-08-11 14:48:04.734 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 62.5845ms
+2022-08-11 14:48:04.844 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - -
+2022-08-11 14:48:04.992 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 148.3875ms
+2022-08-11 14:48:13.544 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44367/api/Countries?$select=name,shortname application/json 58
+2022-08-11 14:48:13.838 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2022-08-11 14:48:13.881 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+2022-08-11 14:48:13.886 +02:00 [INF] Executing endpoint 'HotelListing.API.Controllers.CountriesController.GetCountries (HotelListing.API)'
+2022-08-11 14:48:13.904 +02:00 [INF] Route matched with {action = "GetCountries", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[HotelListing.API.DTO.Countries.GetCountryDto]]] GetCountries() on controller HotelListing.API.Controllers.CountriesController (HotelListing.API).
+2022-08-11 14:48:16.090 +02:00 [INF] Entity Framework Core 6.0.6 initialized 'HotelListingDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.6' with options: None
+2022-08-11 14:48:16.774 +02:00 [INF] Executed DbCommand (34ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name], [c].[ShortName]
+FROM [Countries] AS [c]
+2022-08-11 14:48:16.924 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.EnumerableQuery`1[[Microsoft.AspNetCore.OData.Query.Wrapper.SelectSome`1[[HotelListing.API.DTO.Countries.GetCountryDto, HotelListing.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Microsoft.AspNetCore.OData, Version=8.0.10.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]'.
+2022-08-11 14:48:16.943 +02:00 [INF] Executed action HotelListing.API.Controllers.CountriesController.GetCountries (HotelListing.API) in 3034.4066ms
+2022-08-11 14:48:16.944 +02:00 [INF] Executed endpoint 'HotelListing.API.Controllers.CountriesController.GetCountries (HotelListing.API)'
+2022-08-11 14:48:16.948 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44367/api/Countries?$select=name,shortname application/json 58 - 200 - application/json;+charset=utf-8 3404.2299ms
+2022-08-11 14:51:34.856 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44367/api/Countries?$filter=name%20eq%20%22Jamaica%22 application/json 58
+2022-08-11 14:51:34.872 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2022-08-11 14:51:34.872 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+2022-08-11 14:51:34.872 +02:00 [INF] Executing endpoint 'HotelListing.API.Controllers.CountriesController.GetCountries (HotelListing.API)'
+2022-08-11 14:51:34.873 +02:00 [INF] Route matched with {action = "GetCountries", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[HotelListing.API.DTO.Countries.GetCountryDto]]] GetCountries() on controller HotelListing.API.Controllers.CountriesController (HotelListing.API).
+2022-08-11 14:51:34.889 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.SerializableError'.
+2022-08-11 14:51:34.891 +02:00 [INF] Executed action HotelListing.API.Controllers.CountriesController.GetCountries (HotelListing.API) in 17.7617ms
+2022-08-11 14:51:34.891 +02:00 [INF] Executed endpoint 'HotelListing.API.Controllers.CountriesController.GetCountries (HotelListing.API)'
+2022-08-11 14:51:34.891 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44367/api/Countries?$filter=name%20eq%20%22Jamaica%22 application/json 58 - 400 - application/json;+charset=utf-8 35.6431ms
+2022-08-11 14:52:07.079 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44367/api/Countries?$filter=name%20eq%20%22Jamaica%22&$orderby=name application/json 58
+2022-08-11 14:52:07.082 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2022-08-11 14:52:07.082 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+2022-08-11 14:52:07.083 +02:00 [INF] Executing endpoint 'HotelListing.API.Controllers.CountriesController.GetCountries (HotelListing.API)'
+2022-08-11 14:52:07.083 +02:00 [INF] Route matched with {action = "GetCountries", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[HotelListing.API.DTO.Countries.GetCountryDto]]] GetCountries() on controller HotelListing.API.Controllers.CountriesController (HotelListing.API).
+2022-08-11 14:52:07.100 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.SerializableError'.
+2022-08-11 14:52:07.101 +02:00 [INF] Executed action HotelListing.API.Controllers.CountriesController.GetCountries (HotelListing.API) in 18.0492ms
+2022-08-11 14:52:07.101 +02:00 [INF] Executed endpoint 'HotelListing.API.Controllers.CountriesController.GetCountries (HotelListing.API)'
+2022-08-11 14:52:07.101 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44367/api/Countries?$filter=name%20eq%20%22Jamaica%22&$orderby=name application/json 58 - 400 - application/json;+charset=utf-8 22.0478ms
+2022-08-11 14:52:23.777 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44367/api/Countries?$orderby=name application/json 58
+2022-08-11 14:52:23.779 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2022-08-11 14:52:23.779 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+2022-08-11 14:52:23.779 +02:00 [INF] Executing endpoint 'HotelListing.API.Controllers.CountriesController.GetCountries (HotelListing.API)'
+2022-08-11 14:52:23.779 +02:00 [INF] Route matched with {action = "GetCountries", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[HotelListing.API.DTO.Countries.GetCountryDto]]] GetCountries() on controller HotelListing.API.Controllers.CountriesController (HotelListing.API).
+2022-08-11 14:52:23.863 +02:00 [INF] Entity Framework Core 6.0.6 initialized 'HotelListingDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.6' with options: None
+2022-08-11 14:52:23.875 +02:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name], [c].[ShortName]
+FROM [Countries] AS [c]
+2022-08-11 14:52:23.890 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.EnumerableQuery`1[[HotelListing.API.DTO.Countries.GetCountryDto, HotelListing.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-08-11 14:52:23.892 +02:00 [INF] Executed action HotelListing.API.Controllers.CountriesController.GetCountries (HotelListing.API) in 112.9112ms
+2022-08-11 14:52:23.893 +02:00 [INF] Executed endpoint 'HotelListing.API.Controllers.CountriesController.GetCountries (HotelListing.API)'
+2022-08-11 14:52:23.893 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44367/api/Countries?$orderby=name application/json 58 - 200 - application/json;+charset=utf-8 115.7186ms
+2022-08-11 14:52:55.935 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44367/api/Countries?$filter=name%20eq%20%22Cuba%22 application/json 58
+2022-08-11 14:52:55.937 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2022-08-11 14:52:55.937 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+2022-08-11 14:52:55.937 +02:00 [INF] Executing endpoint 'HotelListing.API.Controllers.CountriesController.GetCountries (HotelListing.API)'
+2022-08-11 14:52:55.938 +02:00 [INF] Route matched with {action = "GetCountries", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[HotelListing.API.DTO.Countries.GetCountryDto]]] GetCountries() on controller HotelListing.API.Controllers.CountriesController (HotelListing.API).
+2022-08-11 14:52:55.942 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.SerializableError'.
+2022-08-11 14:52:55.942 +02:00 [INF] Executed action HotelListing.API.Controllers.CountriesController.GetCountries (HotelListing.API) in 4.6069ms
+2022-08-11 14:52:55.942 +02:00 [INF] Executed endpoint 'HotelListing.API.Controllers.CountriesController.GetCountries (HotelListing.API)'
+2022-08-11 14:52:55.943 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44367/api/Countries?$filter=name%20eq%20%22Cuba%22 application/json 58 - 400 - application/json;+charset=utf-8 7.4222ms
+2022-08-11 14:53:10.088 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44367/api/Countries?$filter=name%20=%22Cuba%22 application/json 58
+2022-08-11 14:53:10.090 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2022-08-11 14:53:10.090 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+2022-08-11 14:53:10.091 +02:00 [INF] Executing endpoint 'HotelListing.API.Controllers.CountriesController.GetCountries (HotelListing.API)'
+2022-08-11 14:53:10.091 +02:00 [INF] Route matched with {action = "GetCountries", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[HotelListing.API.DTO.Countries.GetCountryDto]]] GetCountries() on controller HotelListing.API.Controllers.CountriesController (HotelListing.API).
+2022-08-11 14:53:10.095 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.SerializableError'.
+2022-08-11 14:53:10.104 +02:00 [INF] Executed action HotelListing.API.Controllers.CountriesController.GetCountries (HotelListing.API) in 13.3818ms
+2022-08-11 14:53:10.104 +02:00 [INF] Executed endpoint 'HotelListing.API.Controllers.CountriesController.GetCountries (HotelListing.API)'
+2022-08-11 14:53:10.111 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44367/api/Countries?$filter=name%20=%22Cuba%22 application/json 58 - 400 - application/json;+charset=utf-8 23.7003ms
+2022-08-11 14:53:18.567 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44367/api/Countries?$filter=name application/json 58
+2022-08-11 14:53:18.568 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2022-08-11 14:53:18.568 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+2022-08-11 14:53:18.569 +02:00 [INF] Executing endpoint 'HotelListing.API.Controllers.CountriesController.GetCountries (HotelListing.API)'
+2022-08-11 14:53:18.569 +02:00 [INF] Route matched with {action = "GetCountries", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[HotelListing.API.DTO.Countries.GetCountryDto]]] GetCountries() on controller HotelListing.API.Controllers.CountriesController (HotelListing.API).
+2022-08-11 14:53:18.571 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.SerializableError'.
+2022-08-11 14:53:18.572 +02:00 [INF] Executed action HotelListing.API.Controllers.CountriesController.GetCountries (HotelListing.API) in 3.388ms
+2022-08-11 14:53:18.572 +02:00 [INF] Executed endpoint 'HotelListing.API.Controllers.CountriesController.GetCountries (HotelListing.API)'
+2022-08-11 14:53:18.572 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44367/api/Countries?$filter=name application/json 58 - 400 - application/json;+charset=utf-8 5.2309ms
+2022-08-11 14:53:34.171 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44367/api/Countries?$filter=name%20eq%20%22Cuba%22 application/json 58
+2022-08-11 14:53:34.172 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2022-08-11 14:53:34.173 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+2022-08-11 14:53:34.173 +02:00 [INF] Executing endpoint 'HotelListing.API.Controllers.CountriesController.GetCountries (HotelListing.API)'
+2022-08-11 14:53:34.173 +02:00 [INF] Route matched with {action = "GetCountries", controller = "Countries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[HotelListing.API.DTO.Countries.GetCountryDto]]] GetCountries() on controller HotelListing.API.Controllers.CountriesController (HotelListing.API).
+2022-08-11 14:53:34.174 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.SerializableError'.
+2022-08-11 14:53:34.175 +02:00 [INF] Executed action HotelListing.API.Controllers.CountriesController.GetCountries (HotelListing.API) in 1.907ms
+2022-08-11 14:53:34.175 +02:00 [INF] Executed endpoint 'HotelListing.API.Controllers.CountriesController.GetCountries (HotelListing.API)'
+2022-08-11 14:53:34.175 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44367/api/Countries?$filter=name%20eq%20%22Cuba%22 application/json 58 - 400 - application/json;+charset=utf-8 4.4403ms
+2022-08-11 16:57:01.651 +02:00 [INF] User profile is available. Using 'C:\Users\Milos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-11 16:57:01.966 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-11 16:57:01.967 +02:00 [INF] Hosting environment: Development
+2022-08-11 16:57:01.967 +02:00 [INF] Content root path: C:\Users\Milos\source\repos\HotelListing\HotelListing.API\
+2022-08-11 16:57:01.989 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - -
+2022-08-11 16:57:02.273 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - -
+2022-08-11 16:57:02.274 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - - - 200 - text/html;charset=utf-8 284.7815ms
+2022-08-11 16:57:02.287 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 13.2457ms
+2022-08-11 16:57:02.364 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - -
+2022-08-11 16:57:02.423 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 58.4314ms
+2022-08-11 16:57:02.548 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - -
+2022-08-11 16:57:02.771 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 223.1148ms
+2022-08-11 17:09:22.787 +02:00 [INF] User profile is available. Using 'C:\Users\Milos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-11 17:09:23.142 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-11 17:09:23.143 +02:00 [INF] Hosting environment: Development
+2022-08-11 17:09:23.143 +02:00 [INF] Content root path: C:\Users\Milos\source\repos\HotelListing\HotelListing.API\
+2022-08-11 17:09:23.186 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - -
+2022-08-11 17:09:23.581 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - -
+2022-08-11 17:09:23.584 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - - - 200 - text/html;charset=utf-8 402.1615ms
+2022-08-11 17:09:23.595 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 7.8094ms
+2022-08-11 17:09:23.723 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - -
+2022-08-11 17:09:23.802 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 79.4247ms
+2022-08-11 17:09:23.914 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - -
+2022-08-11 17:09:24.190 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 275.9288ms
+2022-08-11 17:14:18.582 +02:00 [INF] User profile is available. Using 'C:\Users\Milos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-11 17:14:18.852 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-11 17:14:18.853 +02:00 [INF] Hosting environment: Development
+2022-08-11 17:14:18.853 +02:00 [INF] Content root path: C:\Users\Milos\source\repos\HotelListing\HotelListing.API\
+2022-08-11 17:14:18.884 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - -
+2022-08-11 17:14:19.142 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - -
+2022-08-11 17:14:19.143 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - - - 200 - text/html;charset=utf-8 263.5581ms
+2022-08-11 17:14:19.158 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 14.8268ms
+2022-08-11 17:14:19.244 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - -
+2022-08-11 17:14:19.304 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 59.5800ms
+2022-08-11 17:14:19.416 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - -
+2022-08-11 17:14:19.604 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 188.1683ms
